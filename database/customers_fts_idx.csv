@@ -1,0 +1,15 @@
+segid,term,pgno
+1,b'',2
+1,b'0corn',4
+1,b'0ind',6
+1,b'0plant',8
+1,b'0subs',10
+2,b'',2
+2,b'0da',4
+2,b'0lor',6
+2,b'0sa',8
+3,b'',2
+3,b'0corn',4
+3,b'0ind',6
+3,b'0plant',8
+3,b'0subs',10

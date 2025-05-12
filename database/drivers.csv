@@ -1,0 +1,3 @@
+driver_id,name,email,password_hash,route_number,role,created_at
+1,Admin User,admin@example.com,$2b$10$u01ssIPHhRXIVl9CI4bVf.pixnenPAvqu01wPbY8roMo.sfUs3oQG,01,SuperAdmin,2025-03-05 00:29:36
+2,Anthony Hendry,anthonyhendry@missionlinen.com,$2b$12$ywEigTmkaxEUKxxvxUvnIeDX75aYzeuSqTUVUGH4wRxErVbAI9X7W,05,Driver,2025-03-17 17:46:09

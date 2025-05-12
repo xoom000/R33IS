@@ -1,0 +1,1177 @@
+[
+  {
+    "role": "superadmin",
+    "occurrences": [
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/auth.js",
+        "lineNumber": "61",
+        "context": "? user.role.toLowerCase() === 'superadmin'"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/rollcallback.js",
+        "lineNumber": "7",
+        "context": "const roles = ['superadmin', 'admin', 'driver', 'customer'];"
+      }
+    ]
+  },
+  {
+    "role": "admin",
+    "occurrences": [
+      {
+        "file": "/home/xoom000/mission_api/api/src/rollcallback.js",
+        "lineNumber": "7",
+        "context": "const roles = ['superadmin', 'admin', 'driver', 'customer'];"
+      }
+    ]
+  },
+  {
+    "role": "driver",
+    "occurrences": [
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/rentalItems.js",
+        "lineNumber": "97",
+        "context": "// If not SuperAdmin, check if customer is on driver's route"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/rentalItems.js",
+        "lineNumber": "99",
+        "context": "db.get('SELECT route_number FROM drivers WHERE driver_id = ?', [req.user.id], (err, driver) => {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/rentalItems.js",
+        "lineNumber": "105",
+        "context": "if (!driver || driver.route_number !== customer.RouteNumber) {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/rentalItems.js",
+        "lineNumber": "170",
+        "context": "// If not SuperAdmin, check if customer is on driver's route"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/rentalItems.js",
+        "lineNumber": "172",
+        "context": "db.get('SELECT route_number FROM drivers WHERE driver_id = ?', [req.user.id], (err, driver) => {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/rentalItems.js",
+        "lineNumber": "178",
+        "context": "if (!driver || driver.route_number !== customer.RouteNumber) {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/rentalItems.js",
+        "lineNumber": "309",
+        "context": "// If not SuperAdmin, check if customer is on driver's route"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/rentalItems.js",
+        "lineNumber": "311",
+        "context": "db.get('SELECT route_number FROM drivers WHERE driver_id = ?', [req.user.id], (err, driver) => {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/rentalItems.js",
+        "lineNumber": "317",
+        "context": "if (!driver || driver.route_number !== customer.RouteNumber) {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/rentalItems.js",
+        "lineNumber": "549",
+        "context": "// If not SuperAdmin, check if customer is on driver's route"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/rentalItems.js",
+        "lineNumber": "551",
+        "context": "db.get('SELECT route_number FROM drivers WHERE driver_id = ?', [req.user.id], (err, driver) => {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/rentalItems.js",
+        "lineNumber": "557",
+        "context": "if (!driver || driver.route_number !== customer.RouteNumber) {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/auth.js",
+        "lineNumber": "63",
+        "context": ": user.role.toLowerCase() === 'driver'"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/parLevels.js",
+        "lineNumber": "31",
+        "context": "// If not SuperAdmin, check if customer is on driver's route"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/parLevels.js",
+        "lineNumber": "33",
+        "context": "db.get('SELECT route_number FROM drivers WHERE driver_id = ?', [req.user.id], (err, driver) => {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/parLevels.js",
+        "lineNumber": "39",
+        "context": "if (!driver || driver.route_number !== customer.RouteNumber) {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/parLevels.js",
+        "lineNumber": "112",
+        "context": "// If not SuperAdmin, check if customer is on driver's route"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/parLevels.js",
+        "lineNumber": "114",
+        "context": "db.get('SELECT route_number FROM drivers WHERE driver_id = ?', [req.user.id], (err, driver) => {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/parLevels.js",
+        "lineNumber": "120",
+        "context": "if (!driver || driver.route_number !== customer.RouteNumber) {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/parLevels.js",
+        "lineNumber": "199",
+        "context": "// If not SuperAdmin, check if customer is on driver's route"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/parLevels.js",
+        "lineNumber": "201",
+        "context": "db.get('SELECT route_number FROM drivers WHERE driver_id = ?', [req.user.id], (err, driver) => {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/parLevels.js",
+        "lineNumber": "207",
+        "context": "if (!driver || driver.route_number !== customer.RouteNumber) {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/parLevels.js",
+        "lineNumber": "266",
+        "context": "// If not SuperAdmin, check if customer is on driver's route"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/parLevels.js",
+        "lineNumber": "268",
+        "context": "db.get('SELECT route_number FROM drivers WHERE driver_id = ?', [req.user.id], (err, driver) => {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/parLevels.js",
+        "lineNumber": "274",
+        "context": "if (!driver || driver.route_number !== customer.RouteNumber) {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/drivers.js",
+        "lineNumber": "41",
+        "context": "* @desc    Get driver by ID"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/drivers.js",
+        "lineNumber": "50",
+        "context": "return res.status(403).json({ message: 'Not authorized to view this driver' });"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/drivers.js",
+        "lineNumber": "58",
+        "context": "(err, driver) => {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/drivers.js",
+        "lineNumber": "63",
+        "context": "if (!driver) {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/drivers.js",
+        "lineNumber": "66",
+        "context": "res.json({ driver });"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/drivers.js",
+        "lineNumber": "73",
+        "context": "* @desc    Create a new driver (SuperAdmin only)"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/drivers.js",
+        "lineNumber": "118",
+        "context": "// Create new driver"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/drivers.js",
+        "lineNumber": "129",
+        "context": "return res.status(500).json({ message: 'Error creating driver' });"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/drivers.js",
+        "lineNumber": "131",
+        "context": "// Return new driver info"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/drivers.js",
+        "lineNumber": "144",
+        "context": "return res.status(500).json({ message: 'Error creating driver' });"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/drivers.js",
+        "lineNumber": "152",
+        "context": "* @desc    Update driver"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/drivers.js",
+        "lineNumber": "160",
+        "context": "// Users can update their own basic info or SuperAdmin can update any driver"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/drivers.js",
+        "lineNumber": "165",
+        "context": "return res.status(403).json({ message: 'Not authorized to update this driver' });"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/drivers.js",
+        "lineNumber": "173",
+        "context": "// Check if driver exists"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/drivers.js",
+        "lineNumber": "174",
+        "context": "db.get('SELECT driver_id, email FROM drivers WHERE driver_id = ?', [driverId], async (err, driver) => {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/drivers.js",
+        "lineNumber": "179",
+        "context": "if (!driver) {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/drivers.js",
+        "lineNumber": "184",
+        "context": "if (email && email !== driver.email) {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/drivers.js",
+        "lineNumber": "256",
+        "context": "return res.status(500).json({ message: 'Error updating driver' });"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/drivers.js",
+        "lineNumber": "261",
+        "context": "// Fetch updated driver info"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/drivers.js",
+        "lineNumber": "274",
+        "context": "driver: updatedDriver,"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/orders.js",
+        "lineNumber": "47",
+        "context": "// If not SuperAdmin, only show orders for the driver's route customers"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/orders.js",
+        "lineNumber": "49",
+        "context": "db.get('SELECT route_number FROM drivers WHERE driver_id = ?', [req.user.id], (err, driver) => {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/orders.js",
+        "lineNumber": "55",
+        "context": "if (!driver) {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/orders.js",
+        "lineNumber": "60",
+        "context": "params.push(driver.route_number);"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/orders.js",
+        "lineNumber": "150",
+        "context": "// If not SuperAdmin, only show pending orders for driver's route"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/orders.js",
+        "lineNumber": "152",
+        "context": "db.get('SELECT route_number FROM drivers WHERE driver_id = ?', [req.user.id], (err, driver) => {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/orders.js",
+        "lineNumber": "158",
+        "context": "if (!driver) {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/orders.js",
+        "lineNumber": "162",
+        "context": "// Get pending orders for driver's route"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/orders.js",
+        "lineNumber": "170",
+        "context": "`, [driver.route_number], (err, orders) => {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/orders.js",
+        "lineNumber": "268",
+        "context": "// If not SuperAdmin, check if order is for a customer on driver's route"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/orders.js",
+        "lineNumber": "270",
+        "context": "db.get('SELECT route_number FROM drivers WHERE driver_id = ?', [req.user.id], (err, driver) => {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/orders.js",
+        "lineNumber": "276",
+        "context": "if (!driver || driver.route_number !== order.RouteNumber) {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/orders.js",
+        "lineNumber": "342",
+        "context": "// Get driver ID for this route"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/orders.js",
+        "lineNumber": "343",
+        "context": "db.get('SELECT driver_id FROM drivers WHERE route_number = ?', [RouteNumber], (err, driver) => {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/orders.js",
+        "lineNumber": "349",
+        "context": "if (!driver) {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/orders.js",
+        "lineNumber": "350",
+        "context": "return res.status(404).json({ message: 'No driver assigned to this route' });"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/orders.js",
+        "lineNumber": "394",
+        "context": "CustomerNumber, 'Pending', driver.driver_id, totalAmount, note || null"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/orders.js",
+        "lineNumber": "489",
+        "context": "(err, driver) => {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/orders.js",
+        "lineNumber": "494",
+        "context": "if (!driver || driver.route_number !== order.RouteNumber) {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/orders.js",
+        "lineNumber": "533",
+        "context": "req.user.id, // current user's ID as the approver/driver"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/directSales.js",
+        "lineNumber": "105",
+        "context": "// If not SuperAdmin, check if customer is on driver's route"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/directSales.js",
+        "lineNumber": "107",
+        "context": "db.get('SELECT route_number FROM drivers WHERE driver_id = ?', [req.user.id], (err, driver) => {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/directSales.js",
+        "lineNumber": "113",
+        "context": "if (!driver || driver.route_number !== customer.RouteNumber) {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/rollcallback.js",
+        "lineNumber": "7",
+        "context": "const roles = ['superadmin', 'admin', 'driver', 'customer'];"
+      }
+    ]
+  },
+  {
+    "role": "customer",
+    "occurrences": [
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/rentalItems.js",
+        "lineNumber": "76",
+        "context": "* @route   GET /api/rental-items/customer/:id"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/rentalItems.js",
+        "lineNumber": "77",
+        "context": "* @desc    Get rental items for a specific customer"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/rentalItems.js",
+        "lineNumber": "80",
+        "context": "router.get('/customer/:id', (req, res) => {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/rentalItems.js",
+        "lineNumber": "84",
+        "context": "// First check if customer exists"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/rentalItems.js",
+        "lineNumber": "87",
+        "context": "(err, customer) => {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/rentalItems.js",
+        "lineNumber": "93",
+        "context": "if (!customer) {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/rentalItems.js",
+        "lineNumber": "97",
+        "context": "// If not SuperAdmin, check if customer is on driver's route"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/rentalItems.js",
+        "lineNumber": "105",
+        "context": "if (!driver || driver.route_number !== customer.RouteNumber) {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/rentalItems.js",
+        "lineNumber": "106",
+        "context": "return res.status(403).json({ message: 'Not authorized to view this customer' });"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/rentalItems.js",
+        "lineNumber": "109",
+        "context": "// Get customer rental items"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/rentalItems.js",
+        "lineNumber": "113",
+        "context": "// SuperAdmin can see any customer's items"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/rentalItems.js",
+        "lineNumber": "140",
+        "context": "* @route   POST /api/rental-items/customer/:id"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/rentalItems.js",
+        "lineNumber": "141",
+        "context": "* @desc    Add rental item to customer"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/rentalItems.js",
+        "lineNumber": "144",
+        "context": "router.post('/customer/:id', (req, res) => {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/rentalItems.js",
+        "lineNumber": "157",
+        "context": "// First check if customer exists"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/rentalItems.js",
+        "lineNumber": "160",
+        "context": "(err, customer) => {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/rentalItems.js",
+        "lineNumber": "166",
+        "context": "if (!customer) {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/rentalItems.js",
+        "lineNumber": "170",
+        "context": "// If not SuperAdmin, check if customer is on driver's route"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/rentalItems.js",
+        "lineNumber": "178",
+        "context": "if (!driver || driver.route_number !== customer.RouteNumber) {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/rentalItems.js",
+        "lineNumber": "179",
+        "context": "return res.status(403).json({ message: 'Not authorized to update this customer' });"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/rentalItems.js",
+        "lineNumber": "182",
+        "context": "// Add rental item to customer"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/rentalItems.js",
+        "lineNumber": "186",
+        "context": "// SuperAdmin can update any customer"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/rentalItems.js",
+        "lineNumber": "191",
+        "context": "// Check if the item already exists for this customer"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/rentalItems.js",
+        "lineNumber": "202",
+        "context": "return res.status(400).json({ message: 'Item already exists for this customer' });"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/rentalItems.js",
+        "lineNumber": "205",
+        "context": "// Insert new rental item for customer"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/rentalItems.js",
+        "lineNumber": "235",
+        "context": "db.get('SELECT ServiceDay FROM routes WHERE RouteNumber = ?', [customer.RouteNumber], (err, route) => {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/rentalItems.js",
+        "lineNumber": "245",
+        "context": "`, [customer.RouteNumber, route.ServiceDay, item_id], (err, existing) => {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/rentalItems.js",
+        "lineNumber": "266",
+        "context": "`, [customer.RouteNumber, route.ServiceDay, item_id, description, quantity_used], (err) => {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/rentalItems.js",
+        "lineNumber": "278",
+        "context": "* @route   PUT /api/rental-items/customer/:customerId/item/:itemId"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/rentalItems.js",
+        "lineNumber": "279",
+        "context": "* @desc    Update customer rental item"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/rentalItems.js",
+        "lineNumber": "282",
+        "context": "router.put('/customer/:customerId/item/:itemId', (req, res) => {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/rentalItems.js",
+        "lineNumber": "296",
+        "context": "// First check if customer exists"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/rentalItems.js",
+        "lineNumber": "299",
+        "context": "(err, customer) => {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/rentalItems.js",
+        "lineNumber": "305",
+        "context": "if (!customer) {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/rentalItems.js",
+        "lineNumber": "309",
+        "context": "// If not SuperAdmin, check if customer is on driver's route"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/rentalItems.js",
+        "lineNumber": "317",
+        "context": "if (!driver || driver.route_number !== customer.RouteNumber) {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/rentalItems.js",
+        "lineNumber": "318",
+        "context": "return res.status(403).json({ message: 'Not authorized to update this customer' });"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/rentalItems.js",
+        "lineNumber": "325",
+        "context": "// SuperAdmin can update any customer"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/rentalItems.js",
+        "lineNumber": "432",
+        "context": "db.get('SELECT ServiceDay FROM routes WHERE RouteNumber = ?', [customer.RouteNumber], (err, route) => {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/rentalItems.js",
+        "lineNumber": "443",
+        "context": "`, [customer.RouteNumber, route.ServiceDay, itemId], (err, summary) => {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/rentalItems.js",
+        "lineNumber": "498",
+        "context": "`, [customer.RouteNumber, route.ServiceDay, itemId, description, quantityDifference], (err) => {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/rentalItems.js",
+        "lineNumber": "527",
+        "context": "* @route   DELETE /api/rental-items/customer/:customerId/item/:itemId"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/rentalItems.js",
+        "lineNumber": "528",
+        "context": "* @desc    Delete customer rental item"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/rentalItems.js",
+        "lineNumber": "531",
+        "context": "router.delete('/customer/:customerId/item/:itemId', (req, res) => {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/rentalItems.js",
+        "lineNumber": "536",
+        "context": "// First check if customer exists"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/rentalItems.js",
+        "lineNumber": "539",
+        "context": "(err, customer) => {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/rentalItems.js",
+        "lineNumber": "545",
+        "context": "if (!customer) {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/rentalItems.js",
+        "lineNumber": "549",
+        "context": "// If not SuperAdmin, check if customer is on driver's route"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/rentalItems.js",
+        "lineNumber": "557",
+        "context": "if (!driver || driver.route_number !== customer.RouteNumber) {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/rentalItems.js",
+        "lineNumber": "558",
+        "context": "return res.status(403).json({ message: 'Not authorized to update this customer' });"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/rentalItems.js",
+        "lineNumber": "565",
+        "context": "// SuperAdmin can update any customer"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/rentalItems.js",
+        "lineNumber": "616",
+        "context": "db.get('SELECT ServiceDay FROM routes WHERE RouteNumber = ?', [customer.RouteNumber], (err, route) => {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/rentalItems.js",
+        "lineNumber": "627",
+        "context": "`, [customer.RouteNumber, route.ServiceDay, itemId], (err, summary) => {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/auth.js",
+        "lineNumber": "45",
+        "context": "message: 'Invalid customer number or password.',"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/auth.js",
+        "lineNumber": "54",
+        "context": "message: 'Invalid customer number or password.',"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/customers.js",
+        "lineNumber": "74",
+        "context": "message: 'Error retrieving customer count'"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/customers.js",
+        "lineNumber": "113",
+        "context": "* @desc    Get single customer by ID"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/customers.js",
+        "lineNumber": "121",
+        "context": "// Query for the customer"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/customers.js",
+        "lineNumber": "141",
+        "context": "db.get(query, params, (err, customer) => {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/customers.js",
+        "lineNumber": "146",
+        "context": "message: 'Error retrieving customer'"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/customers.js",
+        "lineNumber": "150",
+        "context": "if (!customer) {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/customers.js",
+        "lineNumber": "157",
+        "context": "res.json(customer);"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/customers.js",
+        "lineNumber": "160",
+        "context": "console.error('Get customer error:', err);"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/customers.js",
+        "lineNumber": "163",
+        "context": "message: 'Error retrieving customer'"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/customers.js",
+        "lineNumber": "170",
+        "context": "* @desc    Create a new customer"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/customers.js",
+        "lineNumber": "204",
+        "context": "// Insert the new customer"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/customers.js",
+        "lineNumber": "227",
+        "context": "message: 'Error creating customer'"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/customers.js",
+        "lineNumber": "231",
+        "context": "// Get the newly created customer"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/customers.js",
+        "lineNumber": "240",
+        "context": "(err, customer) => {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/customers.js",
+        "lineNumber": "245",
+        "context": "message: 'Error retrieving created customer'"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/customers.js",
+        "lineNumber": "259",
+        "context": "res.status(201).json(customer);"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/customers.js",
+        "lineNumber": "267",
+        "context": "console.error('Create customer error:', err);"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/customers.js",
+        "lineNumber": "270",
+        "context": "message: 'Error creating customer'"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/customers.js",
+        "lineNumber": "277",
+        "context": "* @desc    Update a customer"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/customers.js",
+        "lineNumber": "306",
+        "context": "// First check if the customer exists and user has permission"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/customers.js",
+        "lineNumber": "310",
+        "context": "db.get(query, params, (err, customer) => {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/customers.js",
+        "lineNumber": "315",
+        "context": "message: 'Error retrieving customer'"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/customers.js",
+        "lineNumber": "319",
+        "context": "if (!customer) {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/customers.js",
+        "lineNumber": "327",
+        "context": "if (req.user.role !== 'SuperAdmin' && customer.RouteNumber !== req.user.route) {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/customers.js",
+        "lineNumber": "330",
+        "context": "message: 'You do not have permission to edit this customer'"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/customers.js",
+        "lineNumber": "338",
+        "context": "routeToUse = customer.RouteNumber;"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/customers.js",
+        "lineNumber": "341",
+        "context": "// Update the customer"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/customers.js",
+        "lineNumber": "373",
+        "context": "message: 'Error updating customer'"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/customers.js",
+        "lineNumber": "386",
+        "context": "// Get the updated customer"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/customers.js",
+        "lineNumber": "395",
+        "context": "(err, customer) => {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/customers.js",
+        "lineNumber": "400",
+        "context": "message: 'Error retrieving updated customer'"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/customers.js",
+        "lineNumber": "404",
+        "context": "res.json(customer);"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/customers.js",
+        "lineNumber": "413",
+        "context": "console.error('Update customer error:', err);"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/customers.js",
+        "lineNumber": "416",
+        "context": "message: 'Error updating customer'"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/customers.js",
+        "lineNumber": "423",
+        "context": "* @desc    Delete a customer"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/customers.js",
+        "lineNumber": "442",
+        "context": "message: 'Error removing customer from search index'"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/customers.js",
+        "lineNumber": "446",
+        "context": "// Delete customer"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/customers.js",
+        "lineNumber": "453",
+        "context": "message: 'Error deleting customer'"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/customers.js",
+        "lineNumber": "474",
+        "context": "console.error('Delete customer error:', err);"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/customers.js",
+        "lineNumber": "477",
+        "context": "message: 'Error deleting customer'"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/customers.js",
+        "lineNumber": "484",
+        "context": "* @desc    Get all rental items for a customer"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/customers.js",
+        "lineNumber": "492",
+        "context": "// First verify the customer exists and user has permission"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/customers.js",
+        "lineNumber": "495",
+        "context": "db.get(customerQuery, [customerId], (err, customer) => {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/customers.js",
+        "lineNumber": "500",
+        "context": "message: 'Error retrieving customer'"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/customers.js",
+        "lineNumber": "504",
+        "context": "if (!customer) {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/customers.js",
+        "lineNumber": "512",
+        "context": "if (req.user.role !== 'SuperAdmin' && customer.RouteNumber !== req.user.route) {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/customers.js",
+        "lineNumber": "515",
+        "context": "message: 'You do not have permission to view this customer'"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/customers.js",
+        "lineNumber": "519",
+        "context": "// Get rental items for the customer"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/parLevels.js",
+        "lineNumber": "10",
+        "context": "* @route   GET /api/par-levels/customer/:id"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/parLevels.js",
+        "lineNumber": "11",
+        "context": "* @desc    Get par levels for a customer"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/parLevels.js",
+        "lineNumber": "14",
+        "context": "router.get('/customer/:id', (req, res) => {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/parLevels.js",
+        "lineNumber": "18",
+        "context": "// First check if customer exists and user has permission"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/parLevels.js",
+        "lineNumber": "21",
+        "context": "(err, customer) => {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/parLevels.js",
+        "lineNumber": "27",
+        "context": "if (!customer) {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/parLevels.js",
+        "lineNumber": "31",
+        "context": "// If not SuperAdmin, check if customer is on driver's route"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/parLevels.js",
+        "lineNumber": "39",
+        "context": "if (!driver || driver.route_number !== customer.RouteNumber) {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/parLevels.js",
+        "lineNumber": "40",
+        "context": "return res.status(403).json({ message: 'Not authorized to view this customer' });"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/parLevels.js",
+        "lineNumber": "47",
+        "context": "// SuperAdmin can see any customer's par levels"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/parLevels.js",
+        "lineNumber": "76",
+        "context": "* @route   PUT /api/par-levels/customer/:id"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/parLevels.js",
+        "lineNumber": "77",
+        "context": "* @desc    Update par levels for a customer"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/parLevels.js",
+        "lineNumber": "80",
+        "context": "router.put('/customer/:id', (req, res) => {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/parLevels.js",
+        "lineNumber": "99",
+        "context": "// First check if customer exists and user has permission"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/parLevels.js",
+        "lineNumber": "102",
+        "context": "(err, customer) => {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/parLevels.js",
+        "lineNumber": "108",
+        "context": "if (!customer) {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/parLevels.js",
+        "lineNumber": "112",
+        "context": "// If not SuperAdmin, check if customer is on driver's route"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/parLevels.js",
+        "lineNumber": "120",
+        "context": "if (!driver || driver.route_number !== customer.RouteNumber) {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/parLevels.js",
+        "lineNumber": "121",
+        "context": "return res.status(403).json({ message: 'Not authorized to update this customer' });"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/parLevels.js",
+        "lineNumber": "128",
+        "context": "// SuperAdmin can update any customer's par levels"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/parLevels.js",
+        "lineNumber": "177",
+        "context": "* @route   DELETE /api/par-levels/customer/:customerId/product/:sku"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/parLevels.js",
+        "lineNumber": "178",
+        "context": "* @desc    Delete a par level for a customer"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/parLevels.js",
+        "lineNumber": "181",
+        "context": "router.delete('/customer/:customerId/product/:sku', (req, res) => {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/parLevels.js",
+        "lineNumber": "186",
+        "context": "// First check if customer exists and user has permission"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/parLevels.js",
+        "lineNumber": "189",
+        "context": "(err, customer) => {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/parLevels.js",
+        "lineNumber": "195",
+        "context": "if (!customer) {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/parLevels.js",
+        "lineNumber": "199",
+        "context": "// If not SuperAdmin, check if customer is on driver's route"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/parLevels.js",
+        "lineNumber": "207",
+        "context": "if (!driver || driver.route_number !== customer.RouteNumber) {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/parLevels.js",
+        "lineNumber": "208",
+        "context": "return res.status(403).json({ message: 'Not authorized to update this customer' });"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/parLevels.js",
+        "lineNumber": "215",
+        "context": "// SuperAdmin can delete any customer's par level"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/parLevels.js",
+        "lineNumber": "246",
+        "context": "* @desc    Get suggested order based on par levels for a customer"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/parLevels.js",
+        "lineNumber": "253",
+        "context": "// First check if customer exists and user has permission"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/parLevels.js",
+        "lineNumber": "256",
+        "context": "(err, customer) => {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/parLevels.js",
+        "lineNumber": "262",
+        "context": "if (!customer) {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/parLevels.js",
+        "lineNumber": "266",
+        "context": "// If not SuperAdmin, check if customer is on driver's route"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/parLevels.js",
+        "lineNumber": "274",
+        "context": "if (!driver || driver.route_number !== customer.RouteNumber) {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/parLevels.js",
+        "lineNumber": "275",
+        "context": "return res.status(403).json({ message: 'Not authorized to view this customer' });"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/parLevels.js",
+        "lineNumber": "282",
+        "context": "// SuperAdmin can see any customer's suggested order"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/orders.js",
+        "lineNumber": "20",
+        "context": "const customer = req.query.customer;"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/orders.js",
+        "lineNumber": "41",
+        "context": "// Add customer filter"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/orders.js",
+        "lineNumber": "42",
+        "context": "if (customer) {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/orders.js",
+        "lineNumber": "44",
+        "context": "params.push(customer);"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/orders.js",
+        "lineNumber": "268",
+        "context": "// If not SuperAdmin, check if order is for a customer on driver's route"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/orders.js",
+        "lineNumber": "324",
+        "context": "// Check if customer exists"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/directSales.js",
+        "lineNumber": "84",
+        "context": "* @route   GET /api/direct-sales/customer/:id"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/directSales.js",
+        "lineNumber": "85",
+        "context": "* @desc    Get products with customer par levels"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/directSales.js",
+        "lineNumber": "88",
+        "context": "router.get('/customer/:id', (req, res) => {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/directSales.js",
+        "lineNumber": "92",
+        "context": "// First check if customer exists"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/directSales.js",
+        "lineNumber": "95",
+        "context": "(err, customer) => {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/directSales.js",
+        "lineNumber": "101",
+        "context": "if (!customer) {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/directSales.js",
+        "lineNumber": "105",
+        "context": "// If not SuperAdmin, check if customer is on driver's route"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/directSales.js",
+        "lineNumber": "113",
+        "context": "if (!driver || driver.route_number !== customer.RouteNumber) {"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/directSales.js",
+        "lineNumber": "114",
+        "context": "return res.status(403).json({ message: 'Not authorized to view this customer' });"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/directSales.js",
+        "lineNumber": "117",
+        "context": "// Get customer products with par levels"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/routes/directSales.js",
+        "lineNumber": "121",
+        "context": "// SuperAdmin can see any customer's products"
+      },
+      {
+        "file": "/home/xoom000/mission_api/api/src/rollcallback.js",
+        "lineNumber": "7",
+        "context": "const roles = ['superadmin', 'admin', 'driver', 'customer'];"
+      }
+    ]
+  }
+]

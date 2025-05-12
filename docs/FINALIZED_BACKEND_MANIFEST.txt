@@ -1,0 +1,175 @@
+# ROUTE 33 INTELLIGENCE SYSTEM (R33IS) BACKEND MANIFEST
+# Last updated: May 12, 2025
+
+## Core Backend Files
+
+### Database Structure
+- /home/xoom000/mission_api/database/migrate.js
+  - Purpose: Database migration runner script
+  - Dependencies: sqlite3, fs, path
+
+- /home/xoom000/mission_api/database/migrations/001_create_notes_system.sql
+  - Purpose: Initial schema migration for notes system
+  - Creates tables: customer_notes, journal_entries, customer_activity, sync_status
+
+- /home/xoom000/mission_api/database/migrations/002_enhance_notes_system.sql
+  - Purpose: Schema enhancement for notes system
+  - Adds tags, is_read fields, makes customer_id optional
+
+- /home/xoom000/mission_api/database/schema.sql
+  - Purpose: Full database schema definition
+
+### API Server
+- /home/xoom000/mission_api/api/src/server.js
+  - Purpose: Main Express server setup
+  - Dependencies: express, cors, sqlite3, path
+  - Sets up database connection, routes, error handling
+
+### Controllers
+- /home/xoom000/mission_api/api/src/controllers/notesController.js
+  - Purpose: Note system business logic
+  - Functions: getCustomerNotes, getTodayNotes, createNote, updateNote, deleteNote, searchNotes
+
+- /home/xoom000/mission_api/api/src/controllers/journalController.js
+  - Purpose: Journal system business logic
+  - Functions: getCustomerJournal, getTodayJournal, createJournalEntry, searchJournal
+
+### Routes
+- /home/xoom000/mission_api/api/src/routes/notes.js
+  - Purpose: Note system API routes
+  - Endpoints: GET /today, GET /customer/:customerId, GET /search, POST /, PUT /:noteId, DELETE /:noteId
+
+- /home/xoom000/mission_api/api/src/routes/journal.js
+  - Purpose: Journal system API routes
+  - Endpoints: GET /today, GET /customer/:customerId, GET /search, POST /
+
+- /home/xoom000/mission_api/api/src/routes/auth.js
+  - Purpose: Authentication routes
+  - Endpoints: POST /register, POST /login, GET /me, POST /logout
+
+- /home/xoom000/mission_api/api/src/routes/customers.js
+  - Purpose: Customer data routes
+  - Endpoints: GET /, GET /:id, POST /, PUT /:id, DELETE /:id, GET /:id/rental-items
+
+- /home/xoom000/mission_api/api/src/routes/directSales.js
+  - Purpose: Direct sales routes
+
+- /home/xoom000/mission_api/api/src/routes/drivers.js
+  - Purpose: Driver management routes
+
+- /home/xoom000/mission_api/api/src/routes/orders.js
+  - Purpose: Order management routes
+
+- /home/xoom000/mission_api/api/src/routes/parLevels.js
+  - Purpose: Par levels management routes
+
+- /home/xoom000/mission_api/api/src/routes/rentalItems.js
+  - Purpose: Rental items management routes
+
+- /home/xoom000/mission_api/api/src/routes/users.js
+  - Purpose: User management routes
+
+### Middleware
+- /home/xoom000/mission_api/api/src/middleware/authMiddleware.js
+  - Purpose: Authentication and authorization middleware
+  - Functions: authenticate, authorize
+
+### CLI Tool
+- /home/xoom000/mission_api/cli/note-cli.js
+  - Purpose: Command-line interface for notes system
+  - Dependencies: axios, readline, chalk, figlet, commander, fs, path
+  - Features: List, search, create, update notes; export notes
+
+- /home/xoom000/mission_api/cli/package.json
+  - Purpose: CLI tool package definition
+  - NPM package name: r33is-cli
+  - bin: r33note
+
+### Documentation
+- /home/xoom000/mission_api/README.md
+  - Purpose: System overview and documentation
+  - Contents: Features, API endpoints, setup instructions
+
+- /home/xoom000/mission_api/api-docs.md
+  - Purpose: Detailed API documentation
+  - Contents: Endpoints, request/response formats, examples
+
+## Dependencies
+Server-side:
+- express: Web framework
+- cors: Cross-origin resource sharing
+- sqlite3: Database driver
+- jsonwebtoken: JWT authentication
+- bcrypt: Password hashing
+- dotenv: Environment variables
+
+CLI Tool:
+- axios: HTTP client
+- chalk: Terminal styling
+- commander: Command-line argument parsing
+- figlet: ASCII art text
+- fs: File system operations
+- path: Path utilities
+
+## CLI Command Examples
+
+### Interactive Mode
+```bash
+cd /home/xoom000/mission_api/cli
+npm install
+chmod +x note-cli.js
+./note-cli.js
+```
+
+### View Today's Notes
+```bash
+./note-cli.js today
+```
+
+### View Customer Notes
+```bash
+./note-cli.js customer 12345
+```
+
+### Search Notes
+```bash
+./note-cli.js search
+```
+
+### Create Note
+```bash
+./note-cli.js create
+```
+
+### Mark Note as Completed
+```bash
+./note-cli.js complete 42
+```
+
+### Mark Note as Read
+```bash
+./note-cli.js read 42
+```
+
+### Export Notes to JSON
+```bash
+./note-cli.js export json
+```
+
+### Export Notes to TXT
+```bash
+./note-cli.js export txt
+```
+
+## Running the Server
+```bash
+cd /home/xoom000/mission_api/api
+npm install
+npm start
+```
+
+## Database Migration
+```bash
+cd /home/xoom000/mission_api/database
+node migrate.js
+```

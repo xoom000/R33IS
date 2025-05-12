@@ -1,0 +1,783 @@
+CustomerNumber,AccountName,Address,City,State,ZipCode,RouteNumber,ServiceFrequency,ServiceDays,Email,Phone,CreatedAt,password_hash,role
+169619,Mineral Lodge - Seasonal,38348 State Highway 36 E,Mineral,CA,96063,75,Weekly,F,,,2025-03-05 00:29:16,,customer
+170297,Fast Track Gas,8099 CA-99 E,Los Molinos,CA,96055,75,Bi-Weekly,W,,,2025-03-05 00:29:16,,customer
+170411,Jackson Heights School,225 Jackson St,Red Bluff,CA,96080,75,Weekly,T,,,2025-03-05 00:29:16,,customer
+170422,Red Bluff School Office,1755 Airport Blvd,Red Bluff,CA,96080,75,Weekly,W,,,2025-03-05 00:29:16,,customer
+170444,Vista Middle School,1770 S Jackson St,Red Bluff,CA,96080,75,Weekly,T,,,2025-03-05 00:29:16,,customer
+170446,Dignity Health - St Elizabeth,2550 Sr Mary Columba Dr,Red Bluff,CA,96080,75,Weekly,M,,,2025-03-05 00:29:16,,customer
+170449,F M Valero,1 Sutter St,Red Bluff,CA,96080,75,Weekly,F,,,2025-03-05 00:29:16,,customer
+170458,Meteer School,685 Kimball Rd,Red Bluff,CA,96080,75,Weekly,T,,,2025-03-05 00:29:16,,customer
+170461,Bidwell School,1256 Walnut St,Red Bluff,CA,96080,75,Weekly,T,,,2025-03-05 00:29:16,,customer
+170617,S.C.P.,6959 Eastside Rd,Redding,CA,96001,05,Bi-Weekly,T,,,2025-03-05 00:29:16,,customer
+170640,Phil's Propeller,3037 Twin View Blvd,Shasta Lake,CA,96019,05,Weekly,R,,,2025-03-05 00:29:16,,customer
+170657,Columbia School Kitchen,10142 Old Oregon Trl,Redding,CA,96003,05,Weekly,F,,,2025-03-05 00:29:16,,customer
+170661,De Ja Vu Restaurant,1177 Shasta Street,Redding,CA,96001,12,Weekly,R,,,2025-03-05 00:29:16,,customer
+170671,Redding Oil Co. Pinegrove,2725 Cascade Blvd,Shasta Lake City,CA,96019,05,Weekly,R,,,2025-03-05 00:29:16,,customer
+170682,Cattlemen's - Redding,2184 Hilltop Dr,Redding,CA,96002,12,Weekly,MWF,,,2025-03-05 00:29:16,,customer
+170686,Wolfgang,1117 Parkview Ave,Redding,CA,96001,05,Bi-Weekly,M,,,2025-03-05 00:29:16,,customer
+170691,Good News - Kitchen,2842 S Market St,Redding,CA,96001,05,Weekly,M,,,2025-03-05 00:29:16,,customer
+170696,COR Building Maintenance rdg,"20055 Viking Way, Bldg 4",Redding,CA,960038295,05,Weekly,F,,,2025-03-05 00:29:16,,customer
+170698,Outdoor Creations,2270 Barney Rd,Anderson,CA,96007,05,Weekly,W,,,2025-03-05 00:29:16,,customer
+170717,Riverview Restaurant - Seasonal,4422 Gover Rd,Anderson,CA,96007,05,Weekly,W,,,2025-03-05 00:29:16,,customer
+170751,Outback Steakhouse    522,910 Dana Dr,Redding,CA,960034079,12,Weekly,MWF,,,2025-03-05 00:29:16,,customer
+170775,Holiday Mkt 59 Line,3315 Placer St,Redding,CA,96001,09,Weekly,F,,,2025-03-05 00:29:16,,customer
+170777,Holiday Mkt #59 Groc,3315 Placer St,Redding,CA,96001,09,Weekly,F,,,2025-03-05 00:29:16,,customer
+170805,Cold Stone Creamery,913 Dana Dr,Redding,CA,96003,12,Weekly,W,,,2025-03-05 00:29:16,,customer
+170808,Redding Dermatology,2107 Airpark Dr,Redding,CA,96001,11,Weekly,T,,,2025-03-05 00:29:16,,customer
+170857,Dr.S Schalo & Bigelow,2315 Bechelli Ln,Redding,CA,96002,05,Weekly,M,,,2025-03-05 00:29:16,,customer
+170864,Wilgus Fire/Safeguard,4544 Mountain Lakes Boulevard,Redding,CA,96003,05,Bi-Weekly,M,,,2025-03-05 00:29:16,,customer
+170891,SC-SHASCOM,3101 South St,Redding,CA,96001,09,Bi-Weekly,F,,,2025-03-05 00:29:16,,customer
+170898,Shasta Lake Fires - D/S,4126 Ashby Ct,Shasta Lake,CA,960199215,05,Bi-Weekly,R,,,2025-03-05 00:29:16,,customer
+170903,Waynes Truck Service,20251 Charlanne Dr,Redding,CA,960029223,75,Weekly,R,,,2025-03-05 00:29:16,,customer
+170914,COR Foothill Water Treatrdg,3100 Foothill Blvd,Redding,CA,96001,09,Weekly,F,,,2025-03-05 00:29:16,,customer
+171009,Redding Urologic Asn,2626 Edith Ave Suite C,Redding,CA,96001,11,Bi-Weekly,T,,,2025-03-05 00:29:16,,customer
+171025,Kampai Sushi,351 North Point Dr,Redding,CA,96003,33,Weekly,M,,,2025-03-05 00:29:16,,customer
+171031,Dudes Drive-In,1644 Hartnell Ave,Redding,CA,96002,09,Bi-Weekly,W,,,2025-03-05 00:29:16,,customer
+171069,Youngman Trucking,6895 Eastside Rd,Anderson,CA,96007,05,Weekly,T,,,2025-03-05 00:29:16,,customer
+171091,Holiday Mkt 34 Linen,20635 Gas Point Rd,Cottonwood,CA,96022,75,Weekly,F,,,2025-03-05 00:29:16,,customer
+171093,Holiday Mkt #34 Groc,20635 Gas Point Rd,Cottonwood,CA,96022,75,Weekly,F,,,2025-03-05 00:29:16,,customer
+171106,Western Hydro Corp,6705 Hooker Creek Road,Cottonwood,CA,960220000,75,Bi-Weekly,T,,,2025-03-05 00:29:16,,customer
+171122,Miniature Precision,4488 Mountain Lakes Blvd,Redding,CA,96003,05,Bi-Weekly,M,,,2025-03-05 00:29:16,,customer
+171138,Lanny's Engines,10085 Limerick Ln,Redding,CA,96003,05,Weekly,F,,,2025-03-05 00:29:16,,customer
+171159,Systems Plus,1800 S Barney Rd,Anderson,CA,96007,05,Bi-Weekly,W,,,2025-03-05 00:29:16,,customer
+171161,Fedex Ground,1497 George Dr,Redding,CA,96003,05,Bi-Weekly,M,,,2025-03-05 00:29:16,,customer
+171172,Bob's Tire,614 Walnut St,Red Bluff,CA,96080,75,Weekly,T,,,2025-03-05 00:29:16,,customer
+171176,Holiday Mrk 40 Linen,9350 Deschutes Rd,Palo Cedro,CA,96073,33,Weekly,T,,,2025-03-05 00:29:16,,customer
+171178,Holiday Mkt #40 Groc,9350 Deschutes Rd,Palo Cedro,CA,96073,33,Weekly,T,,,2025-03-05 00:29:16,,customer
+171197,North Main Equipment,1899 Main St,Red Bluff,CA,96080,75,Weekly,T,,,2025-03-05 00:29:16,,customer
+171207,Sav-Mor #12 Linen,6536 Westside Rd,Redding,CA,96001,05,Weekly,T,,,2025-03-05 00:29:16,,customer
+171209,Sav-Mor #12 Groc,6536 Westside Rd,Redding,CA,96001,05,Weekly,T,,,2025-03-05 00:29:16,,customer
+171215,Cascade Un Em Trans,1645 Mill St,Anderson,CA,96007,05,Weekly,W,,,2025-03-05 00:29:16,,customer
+171223,Dal-Tile,3065 Crossroads Dr,Redding,CA,96003,33,Bi-Weekly,T,,,2025-03-05 00:29:16,,customer
+171235,Canned Food Co.,2235 Churn Creek Rd,Redding,CA,96002,05,Weekly,M,,,2025-03-05 00:29:16,,customer
+171256,Los Mariachi's,604 Main St,Red Bluff,CA,96080,75,Weekly,W,,,2025-03-05 00:29:16,,customer
+171271,Lulu's Restaurant,2230 Pine St,Redding,CA,960012634,12,Weekly,R,,,2025-03-05 00:29:16,,customer
+171294,In & Out Market,9480 Cedro Ln,Palo Cedro,CA,96073,33,Bi-Weekly,T,,,2025-03-05 00:29:16,,customer
+171309,Leckey,4963 Mountain Lakes Blvd,Redding,CA,96003,05,Bi-Weekly,M,,,2025-03-05 00:29:16,,customer
+171353,Comfort Inn & Suites - Susanville,3015 Riverside Dr,Susanville,CA,96130,09,Bi-Weekly,T,,,2025-03-05 00:29:16,,customer
+171355,Susanville Trk/Auto,911 Cottage St,Susanville,CA,96130,09,Bi-Weekly,T,,,2025-03-05 00:29:16,,customer
+171400,Mchale Sign Co.,3707 Electro Way,Redding,CA,96002,75,Weekly,R,,,2025-03-05 00:29:16,,customer
+171410,SC-Public Health Lab,2650 Breslauer Way,Redding,CA,96001,11,Weekly,T,,,2025-03-05 00:29:16,,customer
+171474,Seco Manufacturing  Co.,4155 Oasis Rd,Redding,CA,96003,05,Weekly,R,,,2025-03-05 00:29:16,,customer
+171518,Susanville Sanitary Dist,45 S Roop St,Susanville,CA,96130,09,Bi-Weekly,T,,,2025-03-05 00:29:16,,customer
+171523,BMC-Banner Lassen Medical,1800 Spring Ridge Dr,Susanville,CA,96130,09,Weekly,T,,,2025-03-05 00:29:16,,customer
+171559,In-N-Out Burger #137,1275 Dana Dr,Redding,CA,96003,12,Weekly,MWF,,,2025-03-05 00:29:16,,customer
+171567,Mazatlan Grill,55 N Lassen St,Susanville,CA,96130,09,Bi-Weekly,T,,,2025-03-05 00:29:16,,customer
+171573,Susanville Tow,,Susanville,CA,96130,09,Weekly,T,,,2025-03-05 00:29:16,,customer
+171574,Lassen Tire,2955 Johnstonville Rd,Susanville,CA,96130,09,Weekly,T,,,2025-03-05 00:29:16,,customer
+171575,Shingletown Auto Parts,28526 CA-44,Shingletown,CA,96088,33,Weekly,T,,,2025-03-05 00:29:16,,customer
+171579,Holiday Mkt 45 Linen,2455 Hartnell Ave,Redding,CA,96002,75,Weekly,R,,,2025-03-05 00:29:16,,customer
+171581,Holiday Mkt #45 Groc,2455 Hartnell Ave,Redding,CA,96002,75,Weekly,R,,,2025-03-05 00:29:16,,customer
+171613,Babcock's Equip Repair,5490 Churn Creek Rd,Redding,CA,96002,75,Weekly,R,,,2025-03-05 00:29:16,,customer
+171622,Idaho Grocery,2120 Main St,Susanville,CA,96130,09,Weekly,T,,,2025-03-05 00:29:16,,customer
+171633,Kentucky Fried Chicken,3010 Riverside Dr,Susanville,CA,96130,09,Weekly,T,,,2025-03-05 00:29:16,,customer
+171682,Reeds Market,7007 Shingle Glen Trl,Shingletown,CA,96088,33,Weekly,T,,,2025-03-05 00:29:16,,customer
+171730,FCCC - Shasta Col Smg Refer,11155 Old Oregon Trl,Redding,CA,96003,05,Weekly,F,,,2025-03-05 00:29:16,,customer
+171747,Reynolds Radiator Repair,702-365 Johnstonville Rd,Susanville,CA,96130,09,Weekly,T,,,2025-03-05 00:29:16,,customer
+171779,Giff's Restaurant,2827 Bechelli Ln,Redding,CA,96002,05,Weekly,M,,,2025-03-05 00:29:16,,customer
+171936,Admin User,,,,,00,,,,,2025-03-12 23:12:09,$2b$10$vALsosEYoh6GgC/gsaOc1ObRpkxcRd8UoAbwulIRttpn1t2I6t0LO,superadmin
+186872,Guy Rents,365 Antelope Blvd,Red Bluff,CA,96080,75,Bi-Weekly,M,,,2025-03-05 00:29:16,,customer
+189813,Clear Creek Grocery,7036 Westside Rd,Redding,CA,96001,05,Weekly,T,,,2025-03-05 00:29:16,,customer
+191360,Becca's Cafe,2083 Balls Ferry Rd,Anderson,CA,96007,05,Weekly,W,,,2025-03-05 00:29:16,,customer
+194151,Simpson Events,2211 College View Dr,Redding,CA,96003,75,Weekly,R,,,2025-03-05 00:29:16,,customer
+194602,Red Bluff Outdoor Power,490 Antelope Blvd,Red Bluff,CA,96080,75,Bi-Weekly,M,,,2025-03-05 00:29:16,,customer
+195599,North State Towing,7010 Danyeur Rd,Redding,CA,96001,05,Bi-Weekly,T,,,2025-03-05 00:29:16,,customer
+200421,BPS Supply Group,5040 Mountain Lakes Blvd,Redding,CA,96003,05,Weekly,M,,,2025-03-05 00:29:16,,customer
+201377,Monarch Learning Crt,5307 Cedars Rd,Redding,CA,96001,05,Bi-Weekly,T,,,2025-03-05 00:29:16,,customer
+202242,Redding Drywall,1410 Beltline Rd,Redding,CA,96003,05,Bi-Weekly,M,,,2025-03-05 00:29:16,,customer
+202491,TYE DYE CAFE,1154 Hartnell Ave,Redding,CA,96002,12,Bi-Weekly,W,,,2025-03-05 00:29:16,,customer
+203296,Golden State Farm Credit- remodel,255 Sale Ln,Red Bluff,CA,96080,75,Bi-Weekly,M,,,2025-03-05 00:29:16,,customer
+205202,Action Axle & Suspension,8761 Airport Rd,Redding,CA,96002,75,Weekly,R,,,2025-03-05 00:29:16,,customer
+206029,Frank Johnson's Uphol,1000 Locust St,Redding,CA,96001,11,Bi-Weekly,R,,,2025-03-05 00:29:16,,customer
+206668,Urban Retreat - D/S,"2515 Park Marina Dr, #103",Redding,CA,96001,11,Weekly,R,,,2025-03-05 00:29:16,,customer
+207519,Shasta High Food Court,2500 Eureka Way,Redding,CA,96001,11,Weekly,F,,,2025-03-05 00:29:16,,customer
+207845,CINTAS STARBUCKS #8114/340000782,2980 Main St,Susanville,CA,96130,09,Weekly,T,,,2025-03-05 00:29:16,,customer
+209005,Mountain View School,675 Shasta View Dr,Redding,CA,96003,05,Weekly,F,,,2025-03-05 00:29:16,,customer
+209405,PG&E Rdg Gc Line,3600 Meadow View Dr,Redding,CA,960029701,05,Weekly,W,,,2025-03-05 00:29:16,,customer
+210370,Dr Nilges,2400 Washington Ave,Redding,CA,96001,11,Weekly,R,,,2025-03-05 00:29:16,,customer
+211150,TNS Trucking,702045 Johnstonville Rd,Susanville,CA,96130,09,Weekly,T,,,2025-03-05 00:29:16,,customer
+213368,North Redding Valero,1191 Prestige Way,Redding,CA,96003,09,Bi-Weekly,F,,,2025-03-05 00:29:16,,customer
+213537,Save Mart #477 Meat,1330 Churn Creek Rd,Redding,CA,96003,09,Weekly,W,,,2025-03-05 00:29:16,,customer
+213538,Save Mart #477 Grocery,1330 Churn Creek Rd,Redding,CA,96003,09,Weekly,W,,,2025-03-05 00:29:16,,customer
+213539,Save Mart #477 Produce,1330 Churn Creek Rd,Redding,CA,96003,09,Weekly,W,,,2025-03-05 00:29:16,,customer
+213540,Save Mart #477 Bakery,1330 Churn Creek Rd,Redding,CA,96003,09,Weekly,W,,,2025-03-05 00:29:16,,customer
+213625,FoodMaxx #476 Meat,94 Belle Mill Rd,Red Bluff,CA,96080,75,Weekly,T,,,2025-03-05 00:29:16,,customer
+213626,FoodMaxx #476 Produce,94 Belle Mill Rd,Red Bluff,CA,96080,75,Weekly,T,,,2025-03-05 00:29:16,,customer
+213627,FoodMaxx #476 Bakery,94 Belle Mill Rd,Red Bluff,CA,96080,75,Weekly,T,,,2025-03-05 00:29:16,,customer
+213628,FoodMaxx #476 Grocery,94 Belle Mill Rd,Red Bluff,CA,96080,75,Weekly,T,,,2025-03-05 00:29:16,,customer
+214014,Save Mart #477 Deli,1330 Churn Creek Rd,Redding,CA,96003,09,Weekly,W,,,2025-03-05 00:29:16,,customer
+214581,Reynolds Ranch Farm,501 Madison St,Red Bluff,CA,96080,75,Bi-Weekly,T,,,2025-03-05 00:29:16,,customer
+214607,Powerdraulics,4828 Mountain Lakes Blvd,Redding,CA,96003,05,Bi-Weekly,M,,,2025-03-05 00:29:16,,customer
+215590,Jacks Restaurant,7875 Hwy 99e,Los Molinos,CA,960550000,75,Bi-Weekly,W,,,2025-03-05 00:29:16,,customer
+215801,SDX Shasta Regional RMC#39855001,1100 Butte St,Redding,CA,96001,11,Weekly,W,,,2025-03-05 00:29:16,,customer
+218695,Womens Health Specialists - Redding,1901 Victor Ave,Redding,CA,96002,09,Weekly,W,,,2025-03-05 00:29:16,,customer
+218696,Shasta Gateway Center,1699 State Highway 273,Anderson,CA,96007,05,Weekly,W,,,2025-03-05 00:29:16,,customer
+220637,Panda Express #1253,966 Dana Dr,Redding,CA,96003,12,Weekly,W,,,2025-03-05 00:29:16,,customer
+221254,Woolery Forest Products,13570 State Highway 36 E,Red Bluff,CA,96080,75,Weekly,M,,,2025-03-05 00:29:16,,customer
+222251,Mission Square Poa,2827 Bechelli Ln,Redding,CA,96002,05,Bi-Weekly,M,,,2025-03-05 00:29:16,,customer
+222747,Singletonauman PC - Seasonal,1740 Main St,Susanville,CA,96130,09,Bi-Weekly,T,,,2025-03-05 00:29:16,,customer
+223507,Brandy Moffat-Womens,2701 Old Eureka Way Suite 1000,Redding,CA,960013700,11,Weekly,F,,,2025-03-05 00:29:16,,customer
+223642,Cattlemen's-Redding-D/S,2184 Hilltop Dr,Redding,CA,96002,12,Weekly,W,,,2025-03-05 00:29:16,,customer
+223803,Tri Co. Bank  #989,836 E Cypress Ave,Redding,CA,960021004,09,Bi-Weekly,W,,,2025-03-05 00:29:16,,customer
+225428,Tri Co. Bank  #481,2686 Gateway Dr,Anderson,CA,96007,05,Bi-Weekly,W,,,2025-03-05 00:29:16,,customer
+225430,Tri Co. Bank   #331,880 E Cypress Ave,Redding,CA,96002,09,Bi-Weekly,W,,,2025-03-05 00:29:16,,customer
+225431,Tri Co. Bank   #111,1327 South St,Redding,CA,96001,11,Bi-Weekly,W,,,2025-03-05 00:29:16,,customer
+226078,Tri Co. Bank  #691,4715 Shasta Dam Blvd,Shasta Lake,CA,96019,05,Bi-Weekly,R,,,2025-03-05 00:29:16,,customer
+227908,Panda Express#1522,5000 Rhonda Rd,Anderson,CA,960070000,05,Weekly,W,,,2025-03-05 00:29:16,,customer
+229548,Priya Indian Cuisine,2937 Churn Creek Rd,Redding,CA,96002,09,Weekly,W,,,2025-03-05 00:29:16,,customer
+231683,S.V. Sewer Treatmentwwtp,200 Russell Ave,Susanville,CA,96130,09,Bi-Weekly,T,,,2025-03-05 00:29:16,,customer
+232978,Dr. Kahn,2415 Sonoma St - Suite A,Redding,CA,960012704,11,Weekly,M,,,2025-03-05 00:29:16,,customer
+233643,Janesville Payless,463-770 Main St,Janesville,CA,96114,09,Bi-Weekly,T,,,2025-03-05 00:29:16,,customer
+234254,Dr. Huang,3000 Eureka Way,Redding,CA,96001,11,Weekly,F,,,2025-03-05 00:29:16,,customer
+235203,Rogers Machinery,5006 Mountain Lakes Blvd,Redding,CA,96003,05,Weekly,M,,,2025-03-05 00:29:16,,customer
+235213,SRMC - Prime Health Care,1450 Liberty St,Redding,CA,96001,11,Weekly,W,,,2025-03-05 00:29:16,,customer
+237322,Susanville Valero,1001 Main St,Susanville,CA,96130,09,Weekly,T,,,2025-03-05 00:29:16,,customer
+237339,Antelope Liquors,445 Antelope Blvd,Red Bluff,CA,96080,75,Bi-Weekly,M,,,2025-03-05 00:29:16,,customer
+237369,Institute Of Tech,1755 Hilltop Dr,Redding,CA,96002,05,Weekly,M,,,2025-03-05 00:29:16,,customer
+237384,Patriot Gas,2750 Main St,Susanville,CA,96130,09,Bi-Weekly,T,,,2025-03-05 00:29:16,,customer
+237401,Redding Elks Lodge 1073,250 Elk Dr,Redding,CA,96003,12,Weekly,M,,,2025-03-05 00:29:16,,customer
+238258,Nu-Way Market,8049 CA-99 E,Los Molinos,CA,96055,75,Weekly,W,,,2025-03-05 00:29:16,,customer
+239545,2502 Rt 09 Cash Account,1481 Beltline Rd,Redding,CA,96003,09,Weekly,R,,,2025-03-05 00:29:16,,customer
+239678,Wheeler Logging Office,13570 State Highway 36 E,Red Bluff,CA,96080,75,Weekly,M,,,2025-03-05 00:29:16,,customer
+239679,Wheeler Logging Shop,13570 State Highway 36 E,Red Bluff,CA,96080,75,Weekly,M,,,2025-03-05 00:29:16,,customer
+239680,Wheeler Logging Cat Shop,13570 State Highway 36 E,Red Bluff,CA,96080,75,Weekly,M,,,2025-03-05 00:29:16,,customer
+241268,Western Nevada Supply - D/S,200 Bella Way,Susanville,CA,96130,09,Weekly,T,,,2025-03-05 00:29:16,,customer
+241768,FTH - Collview,1292 College View Dr,Redding,CA,96003,12,Weekly,R,,,2025-03-05 00:29:16,,customer
+241769,FTH - Collview - D/S,1292 College View Dr,Redding,CA,96003,12,Weekly,TR,,,2025-03-05 00:29:16,,customer
+242166,PG&E Redding,3600 Meadow View Dr,Redding,CA,96002,05,Weekly,W,,,2025-03-05 00:29:16,,customer
+242462,Dr Randy Tate,2888 Eureka Way,Redding,CA,96001,11,Bi-Weekly,M,,,2025-03-05 00:29:16,,customer
+242634,Susanville Police Department - D/S,1801 Main St,Susanville,CA,96130,09,Weekly,T,,,2025-03-05 00:29:16,,customer
+244165,Ramos Donuts,545 Main St,Red Bluff,CA,96080,75,Weekly,T,,,2025-03-05 00:29:16,,customer
+244194,Us Forest Service,6101 Airport Rd,Redding,CA,960029422,75,Bi-Weekly,R,,,2025-03-05 00:29:16,,customer
+244613,Court St Surgery,2184 Court St,Redding,CA,96001,11,Weekly,MR,,,2025-03-05 00:29:16,,customer
+244614,Court St Surgery - D/S,2184 Court St,Redding,CA,96001,11,Weekly,TR,,,2025-03-05 00:29:16,,customer
+244653,Institute Of Tech - Garments,1755 Hilltop Dr,Redding,CA,96002,01,Weekly,M,,,2025-03-05 00:29:16,,customer
+244655,Mercy Surgery Center - D/S,2175 Rosaline Ave Ste A,Redding,CA,96001,11,Weekly,MWF,,,2025-03-05 00:29:16,,customer
+244762,Miller Trucking,4650 Mountain Lakes Blvd,Redding,CA,96003,05,Weekly,F,,,2025-03-05 00:29:16,,customer
+244842,Cost U Less,7948 CA-99 E,Los Molinos,CA,96055,75,Bi-Weekly,W,,,2025-03-05 00:29:16,,customer
+244894,Shasta Lake City Hall,4477 Main Street,Shasta Lake,CA,96019,05,Bi-Weekly,R,,,2025-03-05 00:29:16,,customer
+245191,R & R Auto Truck Repair,3165 Twin View Blvd,Shasta Lake,CA,96019,12,Weekly,T,,,2025-03-05 00:29:16,,customer
+245341,Mercy Surgery Center,"2175 Rosaline Ave, Ste A",Redding,CA,96001,11,Weekly,MWF,,,2025-03-05 00:29:16,,customer
+245380,Seco - D/S,4155 Oasis Rd,Redding,CA,96003,05,Weekly,R,,,2025-03-05 00:29:16,,customer
+245984,Shasta Learning Center,2200 Eureka Way,Redding,CA,96001,11,Weekly,F,,,2025-03-05 00:29:16,,customer
+245985,"Dr. Bergstrom, Buxa",3305 Placer St,Redding,CA,96001,11,Bi-Weekly,T,,,2025-03-05 00:29:16,,customer
+246320,Rio Skin Body - Deana,656 Washington St,Red Bluff,CA,96080,75,Weekly,T,,,2025-03-05 00:29:16,,customer
+246580,High Sierra Collision,472-635 Johnstonville Rd,Susanville,CA,96130,09,Weekly,T,,,2025-03-05 00:29:16,,customer
+247032,A Planned Affair,1270 Market St,Redding,CA,960010612,12,Weekly,R,,,2025-03-05 00:29:16,,customer
+247367,Shasta Lake - D/S,4777 Main Street,Shasta Lake,CA,96019,05,Bi-Weekly,R,,,2025-03-05 00:29:16,,customer
+247560,Shasta Lake Public Works,4332 Vallecito Street,Shasta Lake,CA,96019,05,Bi-Weekly,R,,,2025-03-05 00:29:16,,customer
+247561,Shasta Lake Motor Pool,4448 Red Bluff Street,Shasta Lake,CA,96019,05,Bi-Weekly,R,,,2025-03-05 00:29:16,,customer
+247562,Shasta Lake W/Water,Tibitts Road,Shasta Lake,CA,96019,05,Bi-Weekly,R,,,2025-03-05 00:29:16,,customer
+248056,Clayton's Towing,6100 CA-273,Anderson,CA,96007,05,Bi-Weekly,W,,,2025-03-05 00:29:16,,customer
+248411,Creekside Logging,19476 Gas Point Road,Cottonwood,CA,96022,75,Weekly,R,,,2025-03-05 00:29:16,,customer
+249084,The Stirring,2250 Churn Creek Rd,Redding,CA,960020743,12,Weekly,W,,,2025-03-05 00:29:16,,customer
+249712,Wilda's Grill,1712 Churn Creek rd,Redding,CA,960021715,12,Weekly,T,,,2025-03-05 00:29:16,,customer
+251257,Dills Deli,5132 Caterpillar Rd,Redding,CA,960032048,09,Weekly,F,,,2025-03-05 00:29:16,,customer
+251546,Shasta Lake Law Enforce,4448 Red Bluff Street,Shasta Lake,CA,96019,05,Bi-Weekly,R,,,2025-03-05 00:29:16,,customer
+251567,Redding Endoscopy,2179 Court Street,Redding,CA,960012519,11,Weekly,MWF,,,2025-03-05 00:29:16,,customer
+251709,PG&E Red Bluff S.C.,515 Luther Rd,Red Bluff,CA,960804256,75,Weekly,T,,,2025-03-05 00:29:16,,customer
+251923,Garden Equipped,8693 Airport Rd,Redding,CA,960029216,75,Bi-Weekly,R,,,2025-03-05 00:29:16,,customer
+252235,Good News - D/S,2842 S Market St,Redding,CA,960013215,05,Weekly,M,,,2025-03-05 00:29:16,,customer
+252622,FTH - Fuel Good,1279 Pine St,Redding,CA,96001,12,Weekly,R,,,2025-03-05 00:29:16,,customer
+253749,C&S Waste Solutions,471-825 Diane Dr,Susanville,CA,96130,09,Weekly,T,,,2025-03-05 00:29:16,,customer
+253801,Lulu's Restaurant - D/S,2230 Pine St,Redding,CA,960012634,12,Weekly,R,,,2025-03-05 00:29:16,,customer
+254647,Maxwell's,1344 Market St,Redding,CA,960010610,12,Weekly,R,,,2025-03-05 00:29:16,,customer
+254648,Maxwell's - D/S,1344 Market St,Redding,CA,960010610,12,Weekly,R,,,2025-03-05 00:29:16,,customer
+254994,Ramada Inn - House Account,1286 Twin View Blvd,Redding,CA,960031500,11,Weekly,W,,,2025-03-05 00:29:16,,customer
+255057,Days Inn,5 Sutter St,Red Bluff,CA,960804312,75,Weekly,W,,,2025-03-05 00:29:16,,customer
+255730,Interstate Batteries,2300 Larkspur Ln,Redding,CA,960021441,12,Weekly,W,,,2025-03-05 00:29:16,,customer
+255766,Sunblockers,3504 Railroad Ave,Redding,CA,960013441,12,Bi-Weekly,T,,,2025-03-05 00:29:16,,customer
+255920,FTH - Churncreek,2650 Churn Creek Rd,Redding,CA,960021125,33,Weekly,F,,,2025-03-05 00:29:16,,customer
+255921,FTH - Churncreek - D/S,2650 Churn Creek Rd,Redding,CA,960021125,33,Weekly,F,,,2025-03-05 00:29:16,,customer
+255922,Premiere - Catering,700 Auditorium Dr,Redding,CA,960010919,12,Weekly,F,,,2025-03-05 00:29:16,,customer
+256022,Advance Power Redding DS,843 N Market St,Redding,CA,96003,12,Weekly,R,,,2025-03-05 00:29:16,,customer
+256270,Higher Ground,28526 State Highway 44,Shingletown,CA,960889492,33,Weekly,T,,,2025-03-05 00:29:16,,customer
+256387,Kevin Kay Restorations,1530 Charles Dr,Redding,CA,960031459,05,Weekly,R,,,2025-03-05 00:29:16,,customer
+256452,Tri Co Bank   #361,595 Main St,Weaverville,CA,96093,09,Bi-Weekly,R,,,2025-03-05 00:29:16,,customer
+256879,Don's Sandwich Shop,3034 Bechelli Ln,Redding,CA,960022009,09,Weekly,W,,,2025-03-05 00:29:16,,customer
+256880,Etched In Elegance - Catering,3034 Bechelli Ln,Redding,CA,960022009,09,Weekly,W,,,2025-03-05 00:29:16,,customer
+257021,Hansen's Pressure Washer`,3035 Twin View Blvd,Shasta Lake,CA,960192324,05,Weekly,R,,,2025-03-05 00:29:16,,customer
+257244,COR West Central Landfill Rdg,14095 Clear Creek Rd,Redding,CA,96047,05,Weekly,T,,,2025-03-05 00:29:16,,customer
+257245,COR Clear Crk Treat Plant Rdg,2220 Metz Rd,Redding,CA,960079478,05,Weekly,T,,,2025-03-05 00:29:16,,customer
+257246,COR Municipal Utilities Rdg,"20055 Viking Way, Bldg 3",Redding,CA,960038295,05,Weekly,F,,,2025-03-05 00:29:16,,customer
+257247,COR Solid Waste Lunch Rm,2255 Abernathy Ln,Redding,CA,960038057,05,Weekly,F,,,2025-03-05 00:29:16,,customer
+257249,COR St Division Bldg #3 Rdg,"20055 Viking Way, Bldg 3",Redding,CA,960038295,05,Weekly,F,,,2025-03-05 00:29:16,,customer
+257250,COR Redding Power Plant,17120 Clear Creek Rd,Redding,CA,960015107,05,Weekly,T,,,2025-03-05 00:29:16,,customer
+257302,COR Solid Waste Admin,2255 Abernathy Ln,Redding,CA,960038057,05,Weekly,F,,,2025-03-05 00:29:16,,customer
+257303,COR Wastewater Collection Rdg,"20005 Viking Way, Bldg 3",Redding,CA,960038295,05,Weekly,F,,,2025-03-05 00:29:16,,customer
+257330,COR Fire Station #3 Rdg,4255 Westside Rd,Redding,CA,960013798,11,Weekly,T,,,2025-03-05 00:29:16,,customer
+257331,COR Police Department Rdg,855 Cypress Ave,Redding,CA,96001,05,Weekly,T,,,2025-03-05 00:29:16,,customer
+257332,COR Civic Center,777 Cypress Ave,Redding,CA,960012718,05,Weekly,M,,,2025-03-05 00:29:16,,customer
+257334,COR Fire Station #6 Rdg,4201 Oasis Rd,Redding,CA,96003,05,Weekly,F,,,2025-03-05 00:29:16,,customer
+257359,COR Solid Waste Hazard Rdg,2255 Abernathy Ln,Redding,CA,960038057,05,Weekly,F,,,2025-03-05 00:29:16,,customer
+257360,COR Fleet Shop City Redding,20055 Viking Way,Redding,CA,960038295,05,Weekly,F,,,2025-03-05 00:29:16,,customer
+257361,COR Solid Waste Welding Rdg,2255 Abernathy Ln,Redding,CA,960038057,05,Weekly,F,,,2025-03-05 00:29:16,,customer
+257362,COR Rdg Power Plant Maint,17120 Clear Creek Rd,Redding,CA,960015107,05,Weekly,T,,,2025-03-05 00:29:16,,customer
+257379,COR Stillwater Treatmentrdg,6475 Airport Road,Anderson,CA,96007,05,Weekly,W,,,2025-03-05 00:29:16,,customer
+257380,COR Fire Station #2 Redding,3491 Placer St,Redding,CA,960012335,09,Weekly,F,,,2025-03-05 00:29:16,,customer
+257401,COR Fire Station #4 Rdg,2605 S Bonnyview Rd,Redding,CA,960014516,05,Weekly,T,,,2025-03-05 00:29:16,,customer
+257402,COR Fire Dept Headquarterdg,777 Cypress Ave,Redding,CA,960012718,05,Weekly,M,,,2025-03-05 00:29:16,,customer
+257404,COR Fire Station #1 Rdg,1335 Shasta St,Redding,CA,960010625,11,Weekly,T,,,2025-03-05 00:29:16,,customer
+257406,COR Fire Station #5,955 Hartnell Ave,Redding,CA,960022103,09,Weekly,W,,,2025-03-05 00:29:16,,customer
+257407,COR Fire Station #8 Redding,131 Churn Creek Rd,Redding,CA,960033044,12,Weekly,T,,,2025-03-05 00:29:16,,customer
+257408,Smelser Massage,"983 Mission De Oro Dr, St",Redding,CA,960033822,12,Weekly,W,,,2025-03-05 00:29:16,,customer
+257409,COR Redding Airport,6751 Woodrum Cir,Redding,CA,960029386,75,Bi-Weekly,R,,,2025-03-05 00:29:16,,customer
+257410,COR Fire Station 7 Redding,3772 Flight Ave,Redding,CA,960029387,75,Weekly,R,,,2025-03-05 00:29:16,,customer
+257411,Commercial Landscapeserv,2780 Tarmac Rd,Redding,CA,96003,05,Weekly,F,,,2025-03-05 00:29:16,,customer
+257513,Red Bluff CC - Call In Only,1500 S Jackson St,Red Bluff,CA,960804553,75,Weekly,W,,,2025-03-05 00:29:16,,customer
+257727,Bella Vista Ele Main,22661 Old Alturas Rd,Bella Vista,CA,960089792,33,Weekly,M,,,2025-03-05 00:29:16,,customer
+257728,Bella Vista Elem Kitchen,22661 Old Alturas Rd,Bella Vista,CA,960089792,33,Weekly,M,,,2025-03-05 00:29:16,,customer
+261201,Value Inn & Suites,533 N Market St,Redding,CA,960033611,09,Weekly,F,,,2025-03-05 00:29:16,,customer
+261216,Crossland 6 Gas Station,8215 Ca-99 E,Los Molinos,CA,96055,75,Weekly,W,,,2025-03-05 00:29:16,,customer
+261258,Kaleidoscope Coffee,2380 Athens Ave,Redding,CA,960012817,11,Weekly,R,,,2025-03-05 00:29:16,,customer
+261278,Crossland 6 - D/S,8215 Ca-99 E,Los Molinos,CA,96055,75,Weekly,W,,,2025-03-05 00:29:16,,customer
+261699,Bell Automotive Service,2130 Balls Ferry Rd,Anderson,CA,960073405,05,Weekly,W,,,2025-03-05 00:29:16,,customer
+261874,Five Guys Burgers,961 Dana Dr,Redding,CA,960034020,12,Weekly,MF,,,2025-03-05 00:29:16,,customer
+261906,Covered Up - Catering,P.O. Box 312,Lakehead,CA,96051,75,Weekly,W,,,2025-03-05 00:29:16,,customer
+262225,Apogee Surgery Center,1238 West St,Redding,CA,960010415,11,Weekly,MWF,,,2025-03-05 00:29:16,,customer
+262271,Nor Cal Rewinding,4773 Mountain Lakes Blvd,Redding,CA,960031452,05,Weekly,M,,,2025-03-05 00:29:16,,customer
+262451,Nuclear Medicine Assc,1950 Court St,Redding,CA,960011823,11,Weekly,T,,,2025-03-05 00:29:16,,customer
+262472,Norms Automotive,2635 Hartnell Ave,Redding,CA,960022353,75,Weekly,R,,,2025-03-05 00:29:16,,customer
+262746,The Habit #92,"1020 E Cypress Ave, Ste C",Redding,CA,960021114,12,Weekly,MF,,,2025-03-05 00:29:16,,customer
+262786,Roto Rooter,19960 Countryside Ln,Redding,CA,96002,75,Weekly,R,,,2025-03-05 00:29:16,,customer
+263775,Market Street  - D/S,1777 Market Street,Redding,CA,96001,12,Weekly,R,,,2025-03-05 00:29:16,,customer
+263995,Azbill Parts Distribution,915 Merchant Unit #2,Redding,CA,96002,12,Weekly,W,,,2025-03-05 00:29:16,,customer
+264236,Anderson Automotive,2966 Oak St,Anderson,CA,960073588,05,Weekly,W,,,2025-03-05 00:29:16,,customer
+264305,Shasta Cosmetology - D/S,678 N Market St,Redding,CA,960033608,12,Weekly,R,,,2025-03-05 00:29:16,,customer
+264538,View 202,202 Hemsted Dr,Redding,CA,960020912,12,Weekly,MWF,,,2025-03-05 00:29:16,,customer
+264713,"Cascade Paint Supply, Inc",1220 California St,Redding,CA,960010629,11,Bi-Weekly,T,,,2025-03-05 00:29:16,,customer
+264717,Cardan Aircraft Services,1950 Airport Blvd,Red Bluff,CA,960804554,75,Weekly,W,,,2025-03-05 00:29:16,,customer
+264798,"Angelos Classic Import Serv, Inc",2668 Hartnell Ave,Redding,CA,960022317,75,Weekly,R,,,2025-03-05 00:29:16,,customer
+265008,Taj Mahal,"1619 Hilltop Dr, Unit C",Redding,CA,960020240,12,Weekly,W,,,2025-03-05 00:29:16,,customer
+265021,APEX Automotive,19841 Hirsch Ct,Anderson,CA,960074910,05,Weekly,T,,,2025-03-05 00:29:16,,customer
+265377,Geris Weddings - Catering,1773 ST HWY 273,Anderson,CA,96007,05,Weekly,W,,,2025-03-05 00:29:16,,customer
+265576,Nor-Cal Granite & Tile,3383 PACIFIC TRAIL #C,COTTONWOOD,CA,960224910,75,Weekly,T,,,2025-03-05 00:29:16,,customer
+265578,Big Valley Sanitation,5551 Eastside Rd,Redding,CA,96001,05,Weekly,M,,,2025-03-05 00:29:16,,customer
+265609,Einstein Bro's Bagels,"913 Dana Dr, Ste 3C",Redding,CA,960034020,12,Weekly,W,,,2025-03-05 00:29:16,,customer
+265871,Rich's Mobile Auto,70 Alexander Ct,Susanville,CA,961304581,09,Bi-Weekly,T,,,2025-03-05 00:29:16,,customer
+265978,Lassen Municipal Utility,65 S Roop St,Susanville,CA,961304335,09,Bi-Weekly,T,,,2025-03-05 00:29:16,,customer
+266010,Lassen Municipal Service,1605 Chestnut St,Susanville,CA,961303774,09,Bi-Weekly,T,,,2025-03-05 00:29:16,,customer
+266273,Applebee's #9970,220 Antelope Blvd,Red Bluff,CA,960802902,75,Weekly,M,,,2025-03-05 00:29:16,,customer
+266275,Logan's Steakhouse #888,1955 Hilltop Dr,Redding,CA,960020211,12,Weekly,MWF,,,2025-03-05 00:29:16,,customer
+266285,Applebee's #8912,1801 Hilltop Dr,Redding,CA,960020213,12,Weekly,W,,,2025-03-05 00:29:16,,customer
+266628,RTA Construction,9614 Tanqueray Ct,Redding,CA,960036812,33,Bi-Weekly,T,,,2025-03-05 00:29:16,,customer
+266660,Aaron Bjarnason DMD Inc,400 Hartnell Ave,Redding,CA,960021848,09,Bi-Weekly,W,,,2025-03-05 00:29:16,,customer
+266685,Panda Express #1253 - D/S,966 Dana Dr,Redding,CA,960034079,12,Weekly,W,,,2025-03-05 00:29:16,,customer
+266971,Northern CA Charging System,1410 Beltline Rd,Redding,CA,960031410,05,Weekly,M,,,2025-03-05 00:29:16,,customer
+267378,Cafe Pagato,"1031 Butte St, Ste 120",Redding,CA,960010826,11,Weekly,W,,,2025-03-05 00:29:16,,customer
+267501,Buds Garage,8975 Silver Bridge Rd,Palo Cedro,CA,960738769,33,Weekly,T,,,2025-03-05 00:29:16,,customer
+267518,Institute Of Tech - D/S,1755 Hilltop Dr,Redding,CA,960020250,05,Weekly,M,,,2025-03-05 00:29:16,,customer
+268330,Fearless 4 Wheel Drive,2165 Pine St,Redding,CA,960012690,09,Weekly,F,,,2025-03-05 00:29:16,,customer
+268434,Shingletown Medical Center,31292 Alpine Meadows Rd,Shingletown,CA,960889462,33,Bi-Weekly,T,,,2025-03-05 00:29:16,,customer
+268499,Foothill H/S Nutrition Services,9733 Deschutes Rd,Palo Cedro,CA,960738644,33,Weekly,T,,,2025-03-05 00:29:16,,customer
+268653,View 202 - Janitorial,202 Hemsted Dr,Redding,CA,960020912,12,Weekly,MWF,,,2025-03-05 00:29:16,,customer
+268784,Prestige Urgent Care,3689 Eureka Way,Redding,CA,960010177,11,Weekly,F,,,2025-03-05 00:29:16,,customer
+268785,Showboat Lounge,"105 Hartnell Ave, Ste A",Redding,CA,960021841,09,Weekly,W,,,2025-03-05 00:29:16,,customer
+268929,Superior Calif Investments,1824 Court St,Redding,CA,96001,12,Bi-Weekly,R,,,2025-03-05 00:29:16,,customer
+269430,Carmona's Appliance & Mattress Center,2330 Churn Creek Road,Redding,CA,96002,09,Weekly,W,,,2025-03-05 00:29:16,,customer
+269499,Hillside Church,621 Twin View Blvd,Redding,CA,960032001,33,Bi-Weekly,M,,,2025-03-05 00:29:16,,customer
+270250,Red Bluff School Office - D/S,1755 Airport Blvd,Red Bluff,CA,960804514,75,Weekly,W,,,2025-03-05 00:29:16,,customer
+270498,Chuck E Cheese,910 Hilltop Dr,Redding,CA,96003,12,Weekly,M,,,2025-03-05 00:29:16,,customer
+270643,Co Co Mongolian Grill & Sushi,2705 Churn Creek Rd,Redding,CA,960021124,12,Weekly,T,,,2025-03-05 00:29:16,,customer
+271035,COR REU,3611 Avtech Pkwy,Redding,CA,960029241,75,Weekly,R,,,2025-03-05 00:29:16,,customer
+271040,Pit Stop Tire Depot,658 N Market St,Redding,CA,960033608,09,Weekly,F,,,2025-03-05 00:29:16,,customer
+271451,California Welcome Center DS,1699 State Highway 273,Anderson,CA,960074282,05,Weekly,W,,,2025-03-05 00:29:16,,customer
+271698,Steve Manning Construction,4977 Mountain Lakes Blvd,Redding,CA,960031456,05,Weekly,M,,,2025-03-05 00:29:16,,customer
+271765,COR Electric Utility,"20055 Viking Way, Bldg 2",Redding,CA,960038295,05,Weekly,F,,,2025-03-05 00:29:16,,customer
+272039,Dr. Holpuch,384 Hartnell Ave,Redding,CA,960021846,09,Weekly,W,,,2025-03-05 00:29:16,,customer
+272233,Tehama County Dept of Ed - DS,1135 Lincoln St,Red Bluff,CA,960803126,75,Weekly,W,,,2025-03-05 00:29:16,,customer
+272271,Highland Ranch Resort,41515 State Highway 36 E,Mill Creek,CA,960619716,75,Weekly,F,,,2025-03-05 00:29:16,,customer
+272957,G&R Auto Parts LLC,11095 Hwy 99 West,Red Bluff,CA,96080,75,Weekly,M,,,2025-03-05 00:29:16,,customer
+272996,Torr Industries - D/S,4564 Caterpillar Rd,Redding,CA,96003,05,Weekly,M,,,2025-03-05 00:29:16,,customer
+273027,Karline's,1100 Center St,Redding,CA,960010514,12,Weekly,TR,,,2025-03-05 00:29:16,,customer
+273300,Logan's Steakhouse - D/S,1955 Hilltop Dr,Redding,CA,960020211,12,Weekly,MWF,,,2025-03-05 00:29:16,,customer
+273691,FN - IPS Oak Mesa,1870 Oak Mesa Ln,Redding,CA,960039610,05,Weekly,F,,,2025-03-05 00:29:16,,customer
+273693,FN - North Valley Services,16993 McCoy Rd,Cottonwood,CA,960229393,75,Weekly,F,,,2025-03-05 00:29:16,,customer
+273694,FN - North Valley Services,502 Lucknow Ave,Red Bluff,CA,960802040,75,Weekly,T,,,2025-03-05 00:29:16,,customer
+273695,FN - NORCAL Residential,7224 Granada Dr,Redding,CA,960029738,75,Weekly,R,,,2025-03-05 00:29:16,,customer
+273930,Vibra Hospital of Northern Calif,2801 Eureka Way,Redding,CA,960010222,03,Weekly,MWF,,,2025-03-05 00:29:16,,customer
+274083,Alpine Beverage,795 Alexander Ave,Susanville,CA,961304678,09,Bi-Weekly,T,,,2025-03-05 00:29:16,,customer
+274314,Shasta Lake Pizza Factory,4432 Shasta Dam Blvd,Shasta Lake,CA,960199418,05,Weekly,R,,,2025-03-05 00:29:16,,customer
+274371,The Dip,1730 California St,Redding,CA,960011905,12,Weekly,R,,,2025-03-05 00:29:16,,customer
+274378,Kaleidoscope Coffee,2258 North St,Anderson,CA,960073437,05,Weekly,W,,,2025-03-05 00:29:16,,customer
+274672,Disappearing Act,2143 Airpark Dr,Redding,CA,960012433,11,Weekly,T,,,2025-03-05 00:29:16,,customer
+274895,250 Hemsted LP,250 Hemsted Dr,Redding,CA,960020911,05,Weekly,M,,,2025-03-05 00:29:16,,customer
+274936,OBSIDIAN,2770 Eureka Way,Redding,CA,960010223,11,Bi-Weekly,M,,,2025-03-05 00:29:16,,customer
+274952,Vibra - Housekeeping,2801 Eureka Way,Redding,CA,960010222,03,Weekly,MWF,,,2025-03-05 00:29:16,,customer
+274954,Vibra - Dietary,2801 Eureka Way,Redding,CA,960010222,03,Weekly,MWF,,,2025-03-05 00:29:16,,customer
+275540,Golden Rule Small Engine,22835 Antelope Blvd Suite A,Red Bluff,CA,960808817,75,Weekly,W,,,2025-03-05 00:29:16,,customer
+275549,SCOE Transportation Bus Maintenance,3169 S Market St,Redding,CA,960013533,05,Weekly,M,,,2025-03-05 00:29:16,,customer
+275550,SCOE Transportation Office,3169 S Market St,Redding,CA,960013533,05,Weekly,M,,,2025-03-05 00:29:16,,customer
+276258,Kaleidoscope Coffee,960 Lake Blvd,Redding,CA,960034003,33,Weekly,M,,,2025-03-05 00:29:16,,customer
+276430,SNL Group,9818 Holton Way,Redding,CA,96003,05,Weekly,F,,,2025-03-05 00:29:16,,customer
+276615,Wienerschnitzel,1120 N Market Street,Redding,CA,96002,12,Weekly,R,,,2025-03-05 00:29:16,,customer
+276771,Labcorp - CAB050,1850 Spring Ridge Dr. #A,Susanville,CA,96130,09,Weekly,T,,,2025-03-05 00:29:16,,customer
+276959,Munchkin University,2620 Railroad Ave,Redding,CA,96001,11,Bi-Weekly,T,,,2025-03-05 00:29:16,,customer
+277399,RCC - Facility Services,4200 Bechelli Ln,Redding,CA,96002,11,Weekly,R,,,2025-03-05 00:29:16,,customer
+277484,Wings & Wheels,1760 Airport Blvd.,Red Bluff,CA,96080,75,Weekly,W,,,2025-03-05 00:29:16,,customer
+277795,Shasta Pathology Associates,2036 Railroad Ave,Redding,CA,96001,11,Weekly,T,,,2025-03-05 00:29:16,,customer
+277796,USA Tires,2251 Hartnell Ave # 1,Redding,CA,96002,09,Weekly,W,,,2025-03-05 00:29:16,,customer
+277874,Sundial Lodge,1055 N. Market Street,Redding,CA,96001,09,Weekly,F,,,2025-03-05 00:29:16,,customer
+278085,TLC Dermatology Medical Center,375 Smile Place Suite B,Redding,CA,96001,09,Weekly,W,,,2025-03-05 00:29:16,,customer
+278132,Nello's Place,3055 Bechelli Lane,Redding,CA,96002,12,Weekly,TF,,,2025-03-05 00:29:16,,customer
+278198,Shasta Ortho SOSM,1255 Liberty St,Redding,CA,96001,33,Weekly,MWF,,,2025-03-05 00:29:16,,customer
+278200,Shasta Ortho LPT,1255 Liberty St,Redding,CA,96001,33,Weekly,MWF,,,2025-03-05 00:29:16,,customer
+278202,Shasta Ortho Mats,1255 Liberty St,Redding,CA,96001,33,Weekly,F,,,2025-03-05 00:29:16,,customer
+278326,Muse Concrete Contractors Inc,8599 Commercial Way,Redding,CA,96002,75,Bi-Weekly,R,,,2025-03-05 00:29:16,,customer
+278780,Fusion Lounge,1545 Placer Street,Redding,CA,96001,33,Weekly,W,,,2025-03-05 00:29:16,,customer
+278815,RCC - Maintenance,3994 Golf Drive,Redding,CA,96002,11,Weekly,R,,,2025-03-05 00:29:16,,customer
+278957,Institute Of Tech - NHI,1755 Hilltop Dr,Redding,CA,96002,05,Weekly,M,,,2025-03-05 00:29:16,,customer
+279032,BLVD Body Shop,1045 Hartnell Ave,Redding,CA,96002,09,Weekly,W,,,2025-03-05 00:29:16,,customer
+279039,COR Elect. Tech BLD 3,20055 Viking Way Building #4,Redding,CA,96003,05,Weekly,F,,,2025-03-05 00:29:16,,customer
+279042,COR Elect. Tech C.Creek,2220 Metz Rd,Redding,CA,96001,05,Weekly,T,,,2025-03-05 00:29:16,,customer
+279145,Lake Redding Golf,1795 Benton Drive,Redding,CA,96003,33,Weekly,M,,,2025-03-05 00:29:16,,customer
+279241,Kirk Taylor's GM Speciality,2635 Hartnell Ave,Redding,CA,96002,75,Weekly,R,,,2025-03-05 00:29:16,,customer
+279524,Shasta Ortho LPT - COG Hot Pads,1255 Liberty St,Redding,CA,96001,33,Weekly,F,,,2025-03-05 00:29:16,,customer
+279597,Lassen Union HS District - D/S,1324 Cornell Street,Susanville,CA,96130,09,Weekly,T,,,2025-03-05 00:29:16,,customer
+279644,7 Eleven,3100 North Street,Anderson,CA,96007,05,Weekly,W,,,2025-03-05 00:29:16,,customer
+279814,Rocky Point Charter School,3500 Tamarack Dr,Redding,CA,96003,33,Weekly,M,,,2025-03-05 00:29:16,,customer
+280003,Shasta Lanes,11093 Black Marble Ln,Redding,CA,96003,33,Weekly,F,,,2025-03-05 00:29:16,,customer
+280206,Spectrum Prosthetics,1844 South St.,Redding,CA,96001,12,Weekly,R,,,2025-03-05 00:29:16,,customer
+280322,V F W Post 9650,3210 W. Center Street,Anderson,CA,96007,05,Weekly,W,,,2025-03-05 00:29:16,,customer
+280562,MD Imaging - D/S,2020 Court St,Redding,CA,960011822,11,Weekly,MTWRF,,,2025-03-05 00:29:16,,customer
+280564,Wellness One Chiropractic DS,2515 Park Marina Ave Ste 101,Redding,CA,96001,11,Bi-Weekly,R,,,2025-03-05 00:29:16,,customer
+280879,North Cow Creek School,10619 Swede Creek Rd,Pala Cedro,CA,96073,33,Bi-Weekly,T,,,2025-03-05 00:29:16,,customer
+280880,North Cow Creek School - D/S,10619 Swede Creek Rd,Palo Cedro,CA,96073,33,Bi-Weekly,T,,,2025-03-05 00:29:16,,customer
+280882,Junction Elementary School,9087 Deschutes Rd,Palo Cedro,CA,96073,33,Weekly,T,,,2025-03-05 00:29:16,,customer
+280974,Salon 705,615 Main St,Susanville,CA,96130,09,Weekly,T,,,2025-03-05 00:29:16,,customer
+281062,LC-POA-Maintenance,22488 Rio Alto Dr,Cottonwood,CA,96002,75,Weekly,T,,,2025-03-05 00:29:16,,customer
+281064,LC-POA-Main Office,19999 Lake California Dr,Cottonwood,CA,96002,75,Weekly,T,,,2025-03-05 00:29:16,,customer
+281066,LC-POA-Lake Club,22431 Rio Alto Dr.,Cottonwood,CA,96002,75,Weekly,T,,,2025-03-05 00:29:16,,customer
+281067,LC-POA-Lake Club Linen,19999 Lake California Dr,Cottonwood,CA,96002,75,Weekly,T,,,2025-03-05 00:29:16,,customer
+282015,Jack's Grill,1743 California Street,Redding,CA,96001,12,Weekly,MR,,,2025-03-05 00:29:16,,customer
+282016,Jack's Grill - D/S,1743 California Street,Redding,CA,96001,12,Weekly,R,,,2025-03-05 00:29:16,,customer
+282117,Surgery Center of Northern California,950 Butte Street,Redding,CA,96001,11,Weekly,TR,,,2025-03-05 00:29:16,,customer
+282183,Ravizza Redding Mall LLC,1600-1636 Market Street,Redding,CA,96001,12,Bi-Weekly,R,,,2025-03-05 00:29:16,,customer
+282978,Spirit Gas,2525 Main Street,Susanville,CA,96130,09,Bi-Weekly,T,,,2025-03-05 00:29:16,,customer
+282984,Superior Auto Body,2201 Main Street,Susanville,CA,96130,09,Weekly,T,,,2025-03-05 00:29:16,,customer
+283612,Oasis Shell,18850 Old Oasis Rd,Redding,CA,96003,05,Bi-Weekly,R,,,2025-03-05 00:29:16,,customer
+283613,Shasta Lake Shell,1725 Cascade Blvd,Shast Lake,CA,96019,05,Bi-Weekly,R,,,2025-03-05 00:29:16,,customer
+283647,Torr Industries,4564 Catapillar,Redding,CA,96003,05,Weekly,M,,,2025-03-05 00:29:16,,customer
+283677,Dr. Kahn - Cardiovascular Surgical Center,2415 Sonoma St - Suite C,Redding,CA,96001,11,Weekly,M,,,2025-03-05 00:29:16,,customer
+283743,SRMC - Dietary,1450 Liberty St,Redding,CA,96001,11,Weekly,W,,,2025-03-05 00:29:16,,customer
+283880,Tracy Wilder / Leo Jones Propane,11851 Hootenanny Way,Redding,CA,96003,33,Weekly,M,,,2025-03-05 00:29:16,,customer
+284030,Premier Towing,6076 CA - 273,Anderson,CA,96007,05,Bi-Weekly,W,,,2025-03-05 00:29:16,,customer
+284610,Fast Track Food & Fuel,9539 Old Oregon Trail,Redding,CA,96003,33,Weekly,T,,,2025-03-05 00:29:16,,customer
+284916,Boba Tea and Coffee,2999 Churn Creek Rd,Redding,CA,96002,33,Bi-Weekly,F,,,2025-03-05 00:29:16,,customer
+285028,Surgery Center of Northern Ca - D/S,950 Butte Street,Redding,CA,96001,11,Weekly,TR,,,2025-03-05 00:29:16,,customer
+285029,Auto World,105 N Spring Street,Susanville,CA,96130,09,Weekly,T,,,2025-03-05 00:29:16,,customer
+285120,Jersey Mike's Subs Store # 20111,835 Browning St Unit B,Redding,CA,96003,12,Weekly,F,,,2025-03-05 00:29:16,,customer
+285128,Simpson U Nursing,2211 College View Dr,Redding,CA,96003,01,Weekly,MWF,,,2025-03-05 00:29:16,,customer
+285213,Cornerstone Community Bank,1845 California Street,Redding,CA,96001,11,Bi-Weekly,T,,,2025-03-05 00:29:16,,customer
+285331,Dr. Parvin Carter DDS,1548 East Street,Redding,CA,96001,11,Weekly,W,,,2025-03-05 00:29:16,,customer
+285358,Xtreme Cycle & Motor Sports,2918 South Markets St,Redding,CA,96001,12,Bi-Weekly,T,,,2025-03-05 00:29:16,,customer
+285622,Giouann's Hair Affair,30 North McDow Street,Susanville,CA,96130,09,Weekly,T,,,2025-03-05 00:29:16,,customer
+285666,Tea For You,1340 Churn Creek Rd,Redding,CA,96003,12,Weekly,T,,,2025-03-05 00:29:16,,customer
+285690,Grocery Outlet,1981 Hwy 273,Anderson,CA,96007,05,Weekly,W,,,2025-03-05 00:29:16,,customer
+285917,Applebee's Janitorial,1801 Hilltop Drive,Redding,CA,96002,12,Weekly,W,,,2025-03-05 00:29:16,,customer
+285936,Post Office Saloon,1636 Market Street,Redding,CA,960011021,12,Weekly,R,,,2025-03-05 00:29:16,,customer
+285938,Post Office Saloon D/S,1636 Market Street,Redding,CA,960011021,12,Weekly,R,,,2025-03-05 00:29:16,,customer
+286380,Reliable R.V.,702-345 Johnstonville Rd,Susanville,CA,96130,09,Bi-Weekly,T,,,2025-03-05 00:29:16,,customer
+286457,Maruti Oil,31540 Street Hwy 3,Weaverville,CA,96093,09,Bi-Weekly,R,,,2025-03-05 00:29:16,,customer
+286612,Enterprise H.S. Kitchen - Summer Hold,3411 Churn Creek Rd,Redding,CA,96002,33,Bi-Weekly,W,,,2025-03-05 00:29:16,,customer
+286766,Shasta Eye Medical Group Store # 900 D/S,900 Butte Street,Redding,CA,96001,11,Weekly,T,,,2025-03-05 00:29:16,,customer
+286767,Shasta Eye Medical Group Store # 3190 D/S,3190 Churn Creek Rd,Redding,CA,96002,11,Weekly,M,,,2025-03-05 00:29:16,,customer
+287458,A-1 Smog & Auto Repair,513 North Market Street,Redding,CA,96003,05,Weekly,T,,,2025-03-05 00:29:16,,customer
+287563,AV - Sheraton @ Sundial Bridge,820 Sundial Bridge Dr.,Redding,CA,96001,12,Weekly,TF,,,2025-03-05 00:29:16,,customer
+287627,Grant School DS,8835 Swasey Dr,Redding,CA,96001,11,Weekly,M,,,2025-03-05 00:29:16,,customer
+287888,Sunshine Food & Gas,22700 Antelope Blvd.,Red Bluff,CA,96080,75,Bi-Weekly,W,,,2025-03-05 00:29:16,,customer
+288140,Holiday Mkt #64 Grocery,1301 Main Street,Weaverville,CA,96093,09,Weekly,R,,,2025-03-05 00:29:16,,customer
+288141,Holiday Mkt #64 Linen,1301 Main Street,Weaverville,CA,96093,09,Weekly,R,,,2025-03-05 00:29:16,,customer
+288143,Fratelli's Pizza,1774 California Street,Redding,CA,96001,12,Weekly,R,,,2025-03-05 00:29:16,,customer
+288196,Gold Hills Golf Club,"1950 Gold Hills Dr,",Redding,CA,96003,05,Weekly,F,,,2025-03-05 00:29:16,,customer
+288386,California Highway Patrol,472-400 Diamond Crest Rd,Susanville,CA,961305001,09,Weekly,T,,,2025-03-05 00:29:16,,customer
+288421,Shasta Baptist,6600 Westside Rd,Redding,CA,96001,05,Bi-Weekly,T,,,2025-03-05 00:29:16,,customer
+288459,AV - Sheraton House Keeping,820 Sundial Bridge Dr.,Redding,CA,96001,12,Weekly,T,,,2025-03-05 00:29:16,,customer
+288469,Rocha's Auto Service,2506 Hartnell Ave,Redding,CA,96003,75,Weekly,R,,,2025-03-05 00:29:16,,customer
+288480,Kuper's Automotive Repair,425 Antelope Blvd.,Red Bluff,CA,96080,75,Weekly,M,,,2025-03-05 00:29:16,,customer
+288482,Kuper's Auto D/S,425 Antelope Blvd.,Red Bluff,CA,96080,75,Weekly,M,,,2025-03-05 00:29:16,,customer
+288806,Harvey's Market,9975 Hwy 99,Proberta,CA,96078,75,Bi-Weekly,M,,,2025-03-05 00:29:16,,customer
+289017,Panda Express D/S,5000 Rhonda Rd,Anderson,CA,96007,05,Weekly,W,,,2025-03-05 00:29:16,,customer
+289385,Red Lion Hotel - Catering,1830 Hilltop Dr,Redding,CA,96002,12,Weekly,F,,,2025-03-05 00:29:16,,customer
+289386,Red Lion Hotel,1830 Hilltop Dr,Redding,CA,96002,12,Weekly,F,,,2025-03-05 00:29:16,,customer
+289444,Super 8,2975 Johnston Ville Rd,Susanville,CA,96130,09,Bi-Weekly,T,,,2025-03-05 00:29:16,,customer
+290005,Black Rose Coffee & Tea,9539 Old Oregon Trail,Redding,CA,96003,33,Weekly,T,,,2025-03-05 00:29:16,,customer
+290083,Susanville Chevron,1530 Main Street,Susanville,CA,93450,09,Bi-Weekly,T,,,2025-03-05 00:29:16,,customer
+290501,Mosaic D/S,826 Sundial Bridge Dr.,Redding,CA,96001,12,Weekly,TF,,,2025-03-05 00:29:16,,customer
+290503,Chrysalis Charter School D/S,21945 Old 44 Dr.,Palo Cedro,CA,96073,33,Bi-Weekly,T,,,2025-03-05 00:29:16,,customer
+290869,Hill Country Health & Wellness Center,1401 Gold Street,Redding,CA,96001,11,Weekly,F,,,2025-03-05 00:29:16,,customer
+290880,Lassen View Elem School,10818 CA-99,Los Molinos,CA,96055,75,Bi-Weekly,W,,,2025-03-05 00:29:16,,customer
+290893,Bella Vista School / Supplies,22661 Old Alturas Rd.,Bella Vista,CA,96008,33,Weekly,M,,,2025-03-05 00:29:16,,customer
+290906,Ridgeview Residential Center,2096 Cascade Blvd.,Shasta Lake,CA,96019,05,Weekly,R,,,2025-03-05 00:29:16,,customer
+291124,SC-Facilities - Maintenance,1958 Placer Street,Redding,CA,96001,11,Weekly,T,,,2025-03-05 00:29:16,,customer
+291128,SC-Fleet Management,1654 Court Street,Redding,CA,96001,11,Weekly,T,,,2025-03-05 00:29:16,,customer
+291130,SC-Corp Yard - Roads,4363 Eastside Rd,Redding,CA,96001,11,Weekly,T,,,2025-03-05 00:29:16,,customer
+291132,SC-Corp Yard - Shop,4413 Eastside Rd,Redding,CA,96001,11,Weekly,T,,,2025-03-05 00:29:16,,customer
+291133,SC-Shasta County Fire,875 Cypress Ave,Redding,CA,96001,05,Weekly,M,,,2025-03-05 00:29:16,,customer
+291135,SC-Sheriff / Coronor's Office,4555 Veteran Lane,Redding,CA,96001,11,Weekly,T,,,2025-03-05 00:29:16,,customer
+291360,Sierra Pacific Industries,19794 Riverside Drive,Anderson,CA,96007,05,Bi-Weekly,W,,,2025-03-05 00:29:16,,customer
+291361,Jersey Mike's Subs D/S,835 Browning,Redding,CA,96003,12,Weekly,F,,,2025-03-05 00:29:16,,customer
+291365,SC-AG Dept,3179 Bechelli Ln Ste 210,Redding,CA,96002,01,Weekly,M,,,2025-03-05 00:29:16,,customer
+291461,Prestige Urgent Care Central,85 Hartnell Suite 100,Redding,CA,96002,12,Weekly,M,,,2025-03-05 00:29:16,,customer
+291462,Shasta Lake City Community Center,4499 Main Street,Shasta Lake,CA,96019,05,Bi-Weekly,R,,,2025-03-05 00:29:16,,customer
+292663,Panda Express DS # 3022,4660 Churn Creek,Redding,CA,96002,33,Weekly,F,,,2025-03-05 00:29:16,,customer
+292679,Panda Express # 3022,4660 Churn Creek,Redding,CA,96002,33,Weekly,F,,,2025-03-05 00:29:16,,customer
+292840,Green Barn Whiskey Kitchen,5 Chestnut Ave,Red Bluff,CA,96080,75,Weekly,M,,,2025-03-05 00:29:16,,customer
+292921,Tom's Automotive,20659 Walnut Street,Red Bluff,CA,96080,75,Weekly,W,,,2025-03-05 00:29:16,,customer
+292922,Good Health Massage Healing Arts,2295 Hilltop Dr. #8,Redding,CA,96099,12,Weekly,T,,,2025-03-05 00:29:16,,customer
+293030,Fresh Fire Grill - RDG,161 Lake Blvd.,Redding,CA,96003,33,Weekly,M,,,2025-03-05 00:29:16,,customer
+293115,California Highway Patrol,1001 I-5 South,Mt. Shasta,CA,96067,33,Weekly,R,,,2025-03-05 00:29:16,,customer
+293300,Cedar Creek,780 Diamond Avenue,Red Bluff,CA,96080,75,Weekly,M,,,2025-03-05 00:29:16,,customer
+293382,Kilby Equipment Repair,2650 Larkspur Lane,Redding,CA,96002,05,Weekly,R,,,2025-03-05 00:29:16,,customer
+293733,Fyzical Therapy & Balance Center,2620 Larkspur Ln,Redding,CA,96002,12,Weekly,W,,,2025-03-05 00:29:16,,customer
+293876,Cinders & Taste and See,1415 Market Strret,Redding,CA,96001,33,Weekly,W,,,2025-03-05 00:29:16,,customer
+294022,Lakehead Shell,20749 Lakeshore Dr.,Lakehead,CA,96051,33,Bi-Weekly,R,,,2025-03-05 00:29:16,,customer
+294024,Lakehead Shell D/S,20749 Lakeshore Dr.,Lakehead,CA,96051,33,Bi-Weekly,R,,,2025-03-05 00:29:16,,customer
+294158,Old Station Fill - Up,13413 State Hwy 89,Old Station,CA,96071,09,Bi-Weekly,T,,,2025-03-05 00:29:16,,customer
+294319,Kiwanis House,1200 Tehama Street,Redding,CA,96001,11,Weekly,W,,,2025-03-05 00:29:16,,customer
+294387,Riddick's Sports Pub,200 Hartnell Ave,Redding,CA,96002,12,Weekly,M,,,2025-03-05 00:29:16,,customer
+294475,Umpqua Bank,3455 Placer St,Redding,CA,96001,09,Bi-Weekly,F,,,2025-03-05 00:29:16,,customer
+294476,Umpqua Bank,1951 Churn Creek Rd,Redding,CA,96002,09,Weekly,W,,,2025-03-05 00:29:16,,customer
+294602,Shasta Orthodontics,2175 Civic Center Drive,Redding,CA,96001,33,Weekly,W,,,2025-03-05 00:29:16,,customer
+294605,Shasta Orthodontics D/S,2175 Civic Center Drive,Redding,CA,96001,33,Weekly,W,,,2025-03-05 00:29:16,,customer
+294689,Cinemark Redding 14,980 Old Alturas Rd.,Redding,CA,96003,12,Weekly,T,,,2025-03-05 00:29:16,,customer
+294766,Maruti Shingletown,31268 Hwy 44,Shingletown,CA,96088,33,Weekly,T,,,2025-03-05 00:29:16,,customer
+294790,Las Maria's,2640 Bechelli Lane,Redding,CA,96002,33,Weekly,F,,,2025-03-05 00:29:16,,customer
+294828,Spec-Rite,2175 Kenyon Dr,Redding,CA,96001,05,Weekly,T,,,2025-03-05 00:29:16,,customer
+294885,Pampered Pets,14421 Old Oregon Trail Suite  C,Redding,CA,96003,33,Weekly,R,,,2025-03-05 00:29:16,,customer
+294967,7 Eleven,1860 Eureka Way,Redding,CA,96001,11,Weekly,F,,,2025-03-05 00:29:16,,customer
+295019,Maruti Shingletown D/S,31268 Hwy 44,Shingletown,CA,96088,33,Weekly,T,,,2025-03-05 00:29:16,,customer
+295027,California Dept. of Forestry & Fire Protection,604 Antelope Blvd.,Red Bluff,CA,96080,75,Weekly,T,,,2025-03-05 00:29:16,,customer
+295194,Big O Tires,377 E. Cypress,Redding,CA,96002,05,Weekly,M,,,2025-03-05 00:29:16,,customer
+295258,Grocery Outlet,3685 Eureka Way,Redding,CA,96001,09,Bi-Weekly,F,,,2025-03-05 00:29:16,,customer
+295355,Cafe Pagato At Mercy,2175 Rosaline Ave.,Redding,CA,96001,11,Weekly,M,,,2025-03-05 00:29:16,,customer
+295409,BARTEL'S,2311 North Street,Anderson,CA,96007,05,Weekly,W,,,2025-03-05 00:29:16,,customer
+295412,Bartel's Giant Burger,18509 Lake Blvd. E,Redding,CA,96003,33,Weekly,M,,,2025-03-05 00:29:16,,customer
+295449,MPI Equipment,8537 Commerical Way,Redding,CA,96002,75,Weekly,R,,,2025-03-05 00:29:16,,customer
+295559,Country Waffles,2300 Athens Ave,Redding,CA,96001,33,Weekly,M,,,2025-03-05 00:29:16,,customer
+295660,Poppies Pizza,1072 Lake Blvd.,Redding,CA,96003,33,Weekly,M,,,2025-03-05 00:29:16,,customer
+295680,It's Jerky,3094 Crossroads Dr.,Redding,CA,96003,33,Weekly,F,,,2025-03-05 00:29:16,,customer
+296107,Summers Massage,1465 Victor Ave # A,Redding,CA,96002,09,Weekly,W,,,2025-03-05 00:29:16,,customer
+296187,Cornerstone Bank,192 Hartnell Ave.,Redding,CA,96002,09,Bi-Weekly,W,,,2025-03-05 00:29:16,,customer
+296204,Goodtimes Pizza D/S,22049 Old 44 Drive,Palo Cedro,CA,96073,33,Weekly,T,,,2025-03-05 00:29:16,,customer
+296403,Afterglow Massage,2345 Athens Ave.,Redding,CA,96001,33,Weekly,W,,,2025-03-05 00:29:16,,customer
+296457,Angelo's European Specialty,1870 Keystone Ct.,Redding,CA,96003,33,Weekly,M,,,2025-03-05 00:29:16,,customer
+296611,Viking Skate Country,735 Auditorium Dr.,Redding,CA,96001,33,Bi-Weekly,W,,,2025-03-05 00:29:16,,customer
+296918,Riverview Golf & Country Club -Kitchen,4200 Bechelli Ln,Redding,CA,96002,11,Weekly,MR,,,2025-03-05 00:29:16,,customer
+296940,Tangle Blue,160 Nugget Lane,Weaverville,CA,96093,09,Weekly,R,,,2025-03-05 00:29:16,,customer
+296977,Riverview Golf & Country Club - Pro Shop,4200 Bechelli Lane,Redding,CA,96002,11,Weekly,MR,,,2025-03-05 00:29:16,,customer
+296978,Riverview Golf & Country Club - F&B/Special Events,4200 Bechelli Lane,Redding,CA,96002,11,Weekly,M,,,2025-03-05 00:29:16,,customer
+296979,Riverview Golf & Country Club - Locker Room,4200 Bechelli Lane,Redding,CA,96002,11,Weekly,M,,,2025-03-05 00:29:16,,customer
+297114,LOGE Mt Shasta,1612 S Mount Shasta Blvd.,Mount Shasta,CA,96067,33,Weekly,R,,,2025-03-05 00:29:16,,customer
+297363,Taco Cotija,614 Walnut Street,Red Bluff,CA,96080,75,Weekly,T,,,2025-03-05 00:29:16,,customer
+297617,SC- Corp Yard Fall River,24665 Glenburn,Fall River Mills,CA,96028,11,Weekly,T,,,2025-03-05 00:29:16,,customer
+297833,Balance Yoga Center,2821 Bechelli Ln.,Redding,CA,96002,33,Weekly,F,,,2025-03-05 00:29:16,,customer
+297844,Sierra Pacific D/S,19794 Riverside Dr.,Anderson,CA,96007,05,Weekly,W,,,2025-03-05 00:29:16,,customer
+297870,Valero Hilltop,722 E. Cypress Ave.,Redding,CA,96002,33,Bi-Weekly,W,,,2025-03-05 00:29:16,,customer
+297871,Valero Eureka Way,2026 Eureka Way,Redding,CA,96001,33,Bi-Weekly,W,,,2025-03-05 00:29:16,,customer
+297935,L and D Gasoline,58 Antelope Blvd,Red Bluff,CA,96080,75,Bi-Weekly,W,,,2025-03-05 00:29:16,,customer
+297937,Little Country Store,21931 Chimney Rock Dr,Cottonwood,CA,96022,75,Bi-Weekly,T,,,2025-03-05 00:29:16,,customer
+298036,Redding Sports Therapy,2335 Athens Ave.,Redding,CA,96001,33,Weekly,M,,,2025-03-05 00:29:16,,customer
+298037,AV - Sheraton Club Lounge,820 Sundial Bridge Dr.,Redding,CA,96001,12,Weekly,T,,,2025-03-05 00:29:16,,customer
+298364,In-N-Out Burger # 348,4681 Churn Creek Rd,Redding,CA,96002,33,Weekly,MWF,,,2025-03-05 00:29:16,,customer
+298434,Larkspur Optometry -DS,2620 Larkspur Ln Suite L,Redding,CA,96002,11,Weekly,R,,,2025-03-05 00:29:16,,customer
+298782,Big Time Pest Control,19905 Hirsch Court,Anderson,CA,96007,05,Weekly,T,,,2025-03-05 00:29:16,,customer
+298794,Braun Equipment,21260 State Highway 36,Red Bluff,CA,96080,75,Weekly,F,,,2025-03-05 00:29:16,,customer
+298852,Portside Fish & Chips,1804 State Highway 273,Anderson,CA,96007,05,Weekly,W,,,2025-03-05 00:29:16,,customer
+298952,Mt Shasta Ski Park,4500 Ski Park Hwy,McCloud,CA,96057,33,Weekly,R,,,2025-03-05 00:29:16,,customer
+298953,Mt Shasta Ski Park D/S,4500 Ski Park Hwy,McCloud,CA,96057,33,Weekly,R,,,2025-03-05 00:29:16,,customer
+299003,New York Saloon,533 Main Street,Weaverville,CA,96093,09,Weekly,R,,,2025-03-05 00:29:16,,customer
+299212,Final Draft Brewing,1600 California Street,Redding,CA,96001,12,Weekly,R,,,2025-03-05 00:29:16,,customer
+299322,Mountain Mike's Pizza,2727 Churn Creek Road,Redding,CA,96002,12,Weekly,T,,,2025-03-05 00:29:16,,customer
+299393,EZ Auto Care,2778 Tarmac Road,Redding,CA,96003,05,Weekly,F,,,2025-03-05 00:29:16,,customer
+299451,Cascade Eye Care,1751 Hartnell Avenue,Redding,CA,96002,09,Weekly,W,,,2025-03-05 00:29:16,,customer
+299508,NORM'S,9348 Deschutes Road,Palo Cedro,CA,96073,33,Weekly,T,,,2025-03-05 00:29:16,,customer
+299552,Egg Roll King,55 Antelope Boulevard,Red Bluff,CA,96080,75,Weekly,F,,,2025-03-05 00:29:16,,customer
+299765,Wayside Inn Market,718 710 Hwy 395,Standish,CA,96128,09,Bi-Weekly,T,,,2025-03-05 00:29:16,,customer
+299791,Trendy's,1730 Gold Street,Redding,CA,96001,33,Weekly,M,,,2025-03-05 00:29:16,,customer
+299924,Redding Rancheria Dental,1441 Liberty Street,Redding,CA,96001,11,Weekly,R,,,2025-03-05 00:29:16,,customer
+299926,Redding Rancheria Fitness,2000 Redding Rancheria Road,Redding,CA,96001,11,Weekly,M,,,2025-03-05 00:29:16,,customer
+299928,Redding Rancheria,2000 Redding Rancheria Road,Redding,CA,96001,11,Weekly,M,,,2025-03-05 00:29:16,,customer
+299929,Redding Rancheria Senior Nutrition,2000 Redding Rancheria Road,Redding,CA,96001,11,Weekly,M,,,2025-03-05 00:29:16,,customer
+299937,Redding Rancheria Tribal Health,1441 Liberty Street,Redding,CA,96001,11,Weekly,R,,,2025-03-05 00:29:16,,customer
+299939,Redding Rancheria Medical,1441 Liberty Street,Redding,CA,96001,11,Weekly,R,,,2025-03-05 00:29:16,,customer
+299944,Redding Rancheria Head Start,2000 Redding Rancheria Road,Redding,CA,96001,11,Bi-Weekly,M,,,2025-03-05 00:29:16,,customer
+299945,Churn Creek Health Care Mats,3184 Churn Creek Road,Redding,CA,96002,33,Weekly,W,,,2025-03-05 00:29:16,,customer
+299946,Churn Creek Health Care,3184 Churn Creek Road,Redding,CA,96002,33,Weekly,W,,,2025-03-05 00:29:16,,customer
+300073,JR Mexican Meat Market,2139 Hilltop Drive,Redding,CA,96002,12,Bi-Weekly,T,,,2025-03-05 00:29:16,,customer
+300102,Shasta Mosquito & Vector Control District,19200 Latona Road,Anderson,CA,96007,05,Weekly,T,,,2025-03-05 00:29:16,,customer
+300115,Market Street,1777 Market Street,Redding,CA,96001,12,Weekly,MR,,,2025-03-05 00:29:16,,customer
+300441,KFC-Redding  # C750128,135 Lake Boulevard,Redding,CA,96003,33,Weekly,M,,,2025-03-05 00:29:16,,customer
+300457,Save Mart # 612 Meat,4631 Churn Creek Road,Redding,CA,96002,33,Weekly,F,,,2025-03-05 00:29:16,,customer
+300459,Save Mart # 612 Grocery,4631 Churn Creek Road,Redding,CA,96002,33,Weekly,F,,,2025-03-05 00:29:16,,customer
+300464,Save Mart # 612 Produce,4631 Churn Creek Road,Redding,CA,96002,33,Weekly,F,,,2025-03-05 00:29:16,,customer
+300466,Save Mart # 612 Bakery,4631 Churn Creek Road,Redding,CA,96002,33,Weekly,F,,,2025-03-05 00:29:16,,customer
+300467,Save Mart # 612 Deli,4631 Churn Creek Road,Redding,CA,96002,33,Weekly,F,,,2025-03-05 00:29:16,,customer
+300480,Trinity River Lumber Mats,1121 Main Street,Weaverville,CA,96093,09,Bi-Weekly,R,,,2025-03-05 00:29:16,,customer
+300482,Trinity River Lumber Maint. Shop,1121 Main Street,Weaverville,CA,96093,09,Weekly,R,,,2025-03-05 00:29:16,,customer
+300580,Redding Rancheria D/S,2000 Redding Rancheria Road,Redding,CA,96001,11,Weekly,M,,,2025-03-05 00:29:16,,customer
+300732,Northern Trailer,2577 Victor Avenue,Redding,CA,96002,09,Weekly,W,,,2025-03-05 00:29:16,,customer
+300733,Gold Street D/S,1459 Gold Street,Redding,CA,96001,11,Weekly,F,,,2025-03-05 00:29:16,,customer
+300757,SRMC - Prime EVS,1450 Liberty Street,Redding,CA,96001,11,Weekly,MWF,,,2025-03-05 00:29:16,,customer
+300828,SC- Mental Health,2640 Breslauer Way,Redding,CA,96001,11,Weekly,T,,,2025-03-05 00:29:16,,customer
+300944,Palomino Room - Ramone's Kitchen,723 Main Street,Red Bluff,CA,96080,75,Weekly,M,,,2025-03-05 00:29:16,,customer
+300986,Palomino Room - Bar,723 Main Street,Red Bluff,CA,96080,75,Weekly,M,,,2025-03-05 00:29:16,,customer
+300994,SC- Mental Heath DS,2640 Breslauer Way,Redding,CA,96001,11,Weekly,T,,,2025-03-05 00:29:16,,customer
+301009,Bureau of Reclamation - Keswick,16515 Keswick Dam Road,Redding,CA,96001,09,Weekly,R,,,2025-03-05 00:29:16,,customer
+301010,Bureau of Reclamation - Shasta,16349 Shasta Dam Boulevard,Shasta Lake,CA,96019,05,Weekly,R,,,2025-03-05 00:29:16,,customer
+301105,Elliott Acupuncture,1257 West Street,Redding,CA,96001,11,Weekly,W,,,2025-03-05 00:29:16,,customer
+301227,Northstate Dental,2787 Eureka Way,Redding,CA,96001,11,Weekly,T,,,2025-03-05 00:29:16,,customer
+301285,Julio's Garage,20659 Walnut Street #3,Red Bluff,CA,96080,75,Weekly,W,,,2025-03-05 00:29:16,,customer
+301422,Mill Creek Resort - Seasonal,40271 CA-172,Mill Creek,CA,96061,75,Weekly,F,,,2025-03-05 00:29:16,,customer
+301488,Save Mart #612 - Restaurant,4631 Churn Creek Road,Redding,CA,96002,33,Weekly,F,,,2025-03-05 00:29:16,,customer
+301567,Trinity County Brewing Co.,301 Main Street,Weaverville,CA,96093,09,Weekly,R,,,2025-03-05 00:29:16,,customer
+301569,Rod's Radiator,3110 Bechelli Lane,Redding,CA,96002,09,Bi-Weekly,W,,,2025-03-05 00:29:16,,customer
+301741,Sublime Cake Design,2633 Park Marina Drive,Redding,CA,96001,33,Weekly,W,,,2025-03-05 00:29:16,,customer
+301767,Trinity Alps Golf Course,160 Golf Course Drive,Weaverville,CA,96093,09,Weekly,R,,,2025-03-05 00:29:16,,customer
+301827,Riverview Golf & Country Club - Mats,4200 Bechelli Lane,Redding,CA,96002,11,Weekly,M,,,2025-03-05 00:29:16,,customer
+301994,California Highway Patrol,618 West Jessie Street,Mount Shasta,CA,96067,33,Weekly,R,,,2025-03-05 00:29:16,,customer
+302019,Tropics,2555 South Market Street,Redding,CA,96001,12,Bi-Weekly,T,,,2025-03-05 00:29:16,,customer
+302083,Alvarez Auto Care,4610 Shasta Dam Boulevard,Shasta Lake,CA,96019,05,Bi-Weekly,R,,,2025-03-05 00:29:16,,customer
+302099,Paragon Medical Radiation Oncology Redding,923 Dana Drive,Redding,CA,96003,12,Weekly,M,,,2025-03-05 00:29:16,,customer
+303253,Tractor Supply #1905,142 Robs Way,Susanville,CA,96130,09,Bi-Weekly,T,,,2025-03-05 00:29:16,,customer
+303335,Holiday Inn/Spike USA LLC,1900 Hilltop Drive,Redding,CA,96002,12,Weekly,MF,,,2025-03-05 00:29:16,,customer
+303336,Holiday Inn D/S/Spike USA LLC,1900 Hilltop Drive,Redding,CA,96002,12,Weekly,MF,,,2025-03-05 00:29:16,,customer
+303338,Holiday Inn Banquets/Spike USA LLC,1900 Hilltop Drive,Redding,CA,96002,12,Weekly,MF,,,2025-03-05 00:29:16,,customer
+303441,California Dance Company,2150 Marx Way #1,Anderson,CA,96007,05,Weekly,W,,,2025-03-05 00:29:16,,customer
+303672,Americana Modern Hotel,1241 Market Street,Redding,CA,96001,11,Weekly,MWF,,,2025-03-05 00:29:16,,customer
+303839,D & H Automotive,1270 Hartnell Avenue #C,Redding,CA,96002,09,Weekly,W,,,2025-03-05 00:29:16,,customer
+304262,Valero/C-H FUEL,1480 Main Street,Weaverville,CA,96093,09,Bi-Weekly,R,,,2025-03-05 00:29:16,,customer
+304339,Susanville Grocery Outlet,1616 Main Street,Susanville,CA,96130,09,Weekly,T,,,2025-03-05 00:29:16,,customer
+304550,Dr. Lamb / Huang,3000 Eureka Way,Redding,CA,96001,11,Weekly,F,,,2025-03-05 00:29:16,,customer
+304551,Dr. Lamb,3000 Eureka Way,Redding,CA,96001,11,Weekly,F,,,2025-03-05 00:29:16,,customer
+304600,The Cabin Saloon,8057 State Highway 99E,Los Molinos,CA,96055,75,Weekly,W,,,2025-03-05 00:29:16,,customer
+305194,Flaco's Tacos,2731 South Market Street,Redding,CA,96001,12,Weekly,T,,,2025-03-05 00:29:16,,customer
+305240,Goodtimes Pizza,22049 Old Highway 44,Palo Cedro,CA,96073,33,Weekly,T,,,2025-03-05 00:29:16,,customer
+305455,Skye Beauty Co.,9461 Deschutes Road,Palo Cedro,CA,96073,33,Weekly,T,,,2025-03-05 00:29:16,,customer
+305647,Whiskey Bar,1747 Market Street,Redding,CA,96001,12,Weekly,R,,,2025-03-05 00:29:16,,customer
+305751,Pioneer Pizza,32130 State Highway 44,Shingletown,CA,96088,33,Weekly,T,,,2025-03-05 00:29:16,,customer
+305867,Main St. Deli,2130 South Main Street Suite A,Red Bluff,CA,96080,75,Weekly,T,,,2025-03-05 00:29:16,,customer
+306046,Empower Tehama - Hickory,206 Hickory Street,Red Bluff,CA,96080,75,Bi-Weekly,F,,,2025-03-05 00:29:16,,customer
+306047,Empower Tehama - Sale Lane,151 Sale Lane,Red Bluff,CA,96080,75,Bi-Weekly,F,,,2025-03-05 00:29:16,,customer
+306048,Empower Tehama - Walnut St,1805 Walnut Street,Red Bluff,CA,96080,75,Bi-Weekly,F,,,2025-03-05 00:29:16,,customer
+306180,Chick-Fil-A,1477 Hilltop Drive Suite H1,Redding,CA,96003,12,Weekly,M,,,2025-03-05 00:29:16,,customer
+306381,Absolute Lash and Skin,1670 Market Street,Redding,CA,96001,12,Weekly,R,,,2025-03-05 00:29:16,,customer
+306462,Lumberjacks Restaurant,501 East Cypress Avenue,Redding,CA,96002,33,Weekly,F,,,2025-03-05 00:29:16,,customer
+306464,Lumberjacks Restaurant,2795 Main Street,Susanville,CA,96130,09,Weekly,T,,,2025-03-05 00:29:16,,customer
+306489,Jeff's California Cattle Co.,400 East Cypress Avenue,Redding,CA,96002,05,Weekly,M,,,2025-03-05 00:29:16,,customer
+307249,Karmas House of Spirits,329 Lake Boulevard,Redding,CA,96003,12,Bi-Weekly,R,,,2025-03-05 00:29:16,,customer
+307256,Cascade Comfort,5203 Industrial Way,Anderson,CA,96007,05,Weekly,T,,,2025-03-05 00:29:16,,customer
+307436,California Maternal Fetal Medicine,3328 Churn Creek Road #B,Redding,CA,96002,09,Weekly,W,,,2025-03-05 00:29:16,,customer
+307691,Hilton Garden Inn,5050 Bechelli Lane,Redding,CA,96002,11,Weekly,R,,,2025-03-05 00:29:16,,customer
+307872,Mountain Mike's Pizza,905 South Main Street,Red Bluff,CA,96080,75,Weekly,W,,,2025-03-05 00:29:16,,customer
+308043,Main St Lube,1719 Main Street,Susanville,CA,96130,09,Weekly,T,,,2025-03-05 00:29:16,,customer
+308074,Northern Valley Catholic Social Services,2400 Washington Avenue,Redding,CA,96001,11,Bi-Weekly,R,,,2025-03-05 00:29:16,,customer
+308464,Burger Shack,7834 State Highway 99E,Los Molinos,CA,96055,75,Weekly,W,,,2025-03-05 00:29:16,,customer
+308514,Sage @ Simpson Univ - Summer Hold,2211 College View Drive,Redding,CA,96003,75,Weekly,R,,,2025-03-05 00:29:16,,customer
+308552,Fire Water Supply (BD),1005 Vista Way,Red Bluff,CA,96080,75,Weekly,W,,,2025-03-05 00:29:16,,customer
+308596,Redding School of The Arts,955 Inspiration Place,Redding,CA,96003,75,Bi-Weekly,R,,,2025-03-05 00:29:16,,customer
+308967,Shell Eureka Way,2110 Eureka Way,Redding,CA,96001,33,Bi-Weekly,W,,,2025-03-05 00:29:16,,customer
+308981,PGE Fleet - Redding,3600 Meadow View Drive,Redding,CA,96002,05,Weekly,W,,,2025-03-05 00:29:16,,customer
+308982,PGE Fleet - Red Bluff,515 Luther Road,Red Bluff,CA,96080,75,Weekly,T,,,2025-03-05 00:29:16,,customer
+309166,Mulligans Bar & Grill,6241 Churn Creek Road,Redding,CA,96002,05,Weekly,W,,,2025-03-05 00:29:16,,customer
+309228,Taste and See Kitchen,2055 Hilltop Drive,Redding,CA,96002,12,Weekly,W,,,2025-03-05 00:29:16,,customer
+309229,Taste and See #2,930 Hilltop Drive #A,Redding,CA,96003,12,Weekly,M,,,2025-03-05 00:29:16,,customer
+309354,Lab 24,475 Knollcrest Drive,Redding,CA,96002,09,Weekly,W,,,2025-03-05 00:29:16,,customer
+309382,Roots Farm Educational Foundation (BD),11489 Poison Oak Lane,Redding,CA,96003,33,Weekly,T,,,2025-03-05 00:29:16,,customer
+309425,Evergreen Coffee,2085 Pine Street,Redding,CA,96001,33,Weekly,W,,,2025-03-05 00:29:16,,customer
+309736,Shasta - Trinity Rop,4659 Eastside Road,Redding,CA,96001,05,Weekly,M,,,2025-03-05 00:29:16,,customer
+309832,Beaton Plumbing,18233 Clear Creek Rd,Redding,CA,96001,05,Weekly,T,,,2025-03-05 00:29:16,,customer
+310130,Epic Orthopaedics,2622 Edith Avenue,Redding,CA,96001,11,Weekly,T,,,2025-03-05 00:29:16,,customer
+310145,Northwest Holdings - Black Diamond Lounge,1729 California Street,Redding,CA,96001,12,Weekly,R,,,2025-03-05 00:29:16,,customer
+310840,Best Western Anderson Inn,2688 Gateway Drive,Anderson,CA,96007,75,Weekly,MWF,,,2025-03-05 00:29:16,,customer
+310980,Luigi's Pizza,75 Belle Mill Road,Red Bluff,CA,96080,75,Weekly,T,,,2025-03-05 00:29:16,,customer
+310981,Northern Roots Indoor Garden,4580 Westside Road,Redding,CA,96001,12,Bi-Weekly,T,,,2025-03-05 00:29:16,,customer
+311095,When Pie Meets Bread,1768 Churn Creek Road,Redding,CA,96002,12,Weekly,T,,,2025-03-05 00:29:16,,customer
+311098,Super Burrito's Mexican Food,2600 Churn Creek Road,Redding,CA,96002,12,Weekly,M,,,2025-03-05 00:29:16,,customer
+311253,Lake Shasta Lodge,21417 Main Street,Lakehead,CA,96051,33,Bi-Weekly,R,,,2025-03-05 00:29:16,,customer
+311254,RSM,5934 Brenda Lane,Anderson,CA,96007,05,Weekly,W,,,2025-03-05 00:29:16,,customer
+311302,Redding Rancheria Trinity Mats,81 Arbuckle Court,Weaverville,CA,96093,09,Weekly,R,,,2025-03-05 00:29:16,,customer
+311303,Redding Rancheria Trinity Health,81 Arbuckle Court,Weaverville,CA,96093,09,Weekly,R,,,2025-03-05 00:29:16,,customer
+311363,Francisco's Tacos,1 Sutter Street,Red Bluff,CA,96080,75,Bi-Weekly,W,,,2025-03-05 00:29:16,,customer
+311386,Quail Crest 1 @ Oakdale,101 Quartz Hill Road,Redding,CA,96003,12,Weekly,MR,,,2025-03-05 00:29:16,,customer
+311387,Quail Crest 1 @ Oakdale D/S,101 Quartz Hill Road,Redding,CA,96003,12,Weekly,MR,,,2025-03-05 00:29:16,,customer
+311388,Quail Crest 2 dba Sierra Oaks of Redding,1520 Collyer Drive,Redding,CA,96003,33,Weekly,M,,,2025-03-05 00:29:16,,customer
+311389,Quail Crest 2 dba Sierra Oaks of Redding D/S,1520 Collyer Drive,Redding,CA,96003,33,Weekly,M,,,2025-03-05 00:29:16,,customer
+311566,Fat Daddy's BBQ,942 Hartnell Avenue,Redding,CA,96002,33,Weekly,F,,,2025-03-05 00:29:16,,customer
+311673,Luna Restaurant,2914 Churn Creek Road,Redding,CA,96002,33,Weekly,F,,,2025-03-05 00:29:16,,customer
+311744,Safeway - 1218,2970 Main Street,Susanville,CA,96130,09,Weekly,T,,,2025-03-05 00:29:16,,customer
+311916,32 Below,5136 Caterpillar Road,Redding,CA,96003,09,Weekly,F,,,2025-03-05 00:29:16,,customer
+311996,Raw,2167 Hilltop Drive,Redding,CA,96002,12,Weekly,MF,,,2025-03-05 00:29:16,,customer
+311997,Raw D/S,2167 Hilltop Drive,Redding,CA,96002,12,Weekly,MF,,,2025-03-05 00:29:16,,customer
+312151,Cedars Lodge Motel,4201 Dunsmuir Avenue,Dunsmuir,CA,96025,33,Bi-Weekly,R,,,2025-03-05 00:29:16,,customer
+312243,DH Medical Group North State,2528 Sister Mary Columba Drive,Red Bluff,CA,96080,75,Weekly,M,,,2025-03-05 00:29:16,,customer
+312244,DH Red Bluff Care Center,2580 Sister Mary Columba Drive Suite 200,Red Bluff,CA,96080,75,Weekly,M,,,2025-03-05 00:29:16,,customer
+312245,DH Red Bluff Wound Care,2440 Sister Mary Columba Drive,Red Bluff,CA,96080,75,Weekly,M,,,2025-03-05 00:29:16,,customer
+312246,DH Medical Foundation - 2624 Edith Ave,2624 Edith Avenue,Redding,CA,96001,11,Weekly,T,,,2025-03-05 00:29:16,,customer
+312248,DH Mercy Medical Foundation,2510 Airpark Drive #301,Redding,CA,96001,11,Weekly,T,,,2025-03-05 00:29:16,,customer
+312249,DH Mercy Outpatient Oncology,310 Hartnell Avenue,Redding,CA,96002,11,Weekly,M,,,2025-03-05 00:29:16,,customer
+312250,DH Nuclear Medicince Clinic,2780 Eureka Way,Redding,CA,96001,11,Weekly,M,,,2025-03-05 00:29:16,,customer
+312252,DH Medical Foundation Redding,1755 Court Street,Redding,CA,96001,11,Weekly,M,,,2025-03-05 00:29:16,,customer
+312258,Redding Heating & Air,840 Commerce Street,Redding,CA,96002,09,Weekly,F,,,2025-03-05 00:29:16,,customer
+313242,Addendum,290 Hartnell Avenue,Redding,CA,96002,12,Weekly,M,,,2025-03-05 00:29:16,,customer
+313248,DHMF - HS - ENT - 106,2510 Airpark Drive Suite 106,Redding,CA,96001,11,Weekly,T,,,2025-03-05 00:29:16,,customer
+313249,DHMF - NS - Endocrinology 104,2510 Airpark Drive Suite 104,Redding,CA,96001,11,Weekly,T,,,2025-03-05 00:29:16,,customer
+313288,Cornerstone Community Bank,2727 Ventura Street,Anderson,CA,96007,05,Bi-Weekly,W,,,2025-03-05 00:29:16,,customer
+313350,DH - Internal Medicine,2336 Court Street,Redding,CA,96001,11,Weekly,W,,,2025-03-05 00:29:16,,customer
+313443,Paradise Tires and Wheel,215 South Main Street,Red Bluff,CA,96080,75,Weekly,M,,,2025-03-05 00:29:16,,customer
+313697,Absolute Machine,5020 Mountain Lakes Boulevard,Redding,CA,96003,05,Weekly,F,,,2025-03-05 00:29:16,,customer
+313738,AV - Branch House River Front Bistro,844 Sundial Bridge Drive,Redding,CA,96001,12,Weekly,T,,,2025-03-05 00:29:16,,customer
+313799,Mount Shasta 76,411 West Lake Street,Mount Shasta,CA,96067,33,Weekly,R,,,2025-03-05 00:29:16,,customer
+313829,Shasta College Food Services,11555 Old Oregon Trail,Redding,CA,96003,05,Weekly,F,,,2025-03-05 00:29:16,,customer
+313922,AV - Branch House DS,844 Sundial Bridge Drive,Redding,CA,96001,12,Weekly,T,,,2025-03-05 00:29:16,,customer
+313946,Mittry Construction,4850 Caterpillar Road,Redding,CA,96003,05,Weekly,R,,,2025-03-05 00:29:16,,customer
+314090,Mt Shasta High School,710 Everitt Memorial Highway,Mount Shasta,CA,96067,33,Bi-Weekly,R,,,2025-03-05 00:29:16,,customer
+314092,Mt Shasta High School - DS,710 Everitt Memorial Highway,Mount Shasta,CA,96067,33,Weekly,R,,,2025-03-05 00:29:16,,customer
+314094,Cornerstone Bank,330 Hartnell Avenue,Redding,CA,96002,09,Bi-Weekly,W,,,2025-03-05 00:29:16,,customer
+314154,Wing Spot,991 Lake Boulevard Suite B,Redding,CA,96003,33,Weekly,M,,,2025-03-05 00:29:16,,customer
+314174,Mongoose Trucking,17850 Construction Way,Redding,CA,96003,05,Weekly,R,,,2025-03-05 00:29:16,,customer
+314385,Nutrishop,1619 Hilltop Dr,Redding,CA,96002,09,Bi-Weekly,W,,,2025-03-05 00:29:16,,customer
+314386,Subarama,2658 Hilltop Drive,Redding,CA,96002,12,Weekly,W,,,2025-03-05 00:29:16,,customer
+314459,Crafco,2300 Barney Road,Anderson,CA,96007,05,Weekly,W,,,2025-03-05 00:29:16,,customer
+314701,Mike's Heating and Air,19833 Riverside Avenue,Anderson,CA,96007,05,Weekly,T,,,2025-03-05 00:29:16,,customer
+314859,Shasta College - Trinity Campus,30 Arbuckle Court,Weaverville,CA,96093,09,Weekly,R,,,2025-03-05 00:29:16,,customer
+314951,SRMC - Anderson,2830 East Street,Anderson,CA,96007,05,Weekly,W,,,2025-03-05 00:29:16,,customer
+314964,Tehama Wellness & Spa,356 Kimball Rd,Red Bluff,CA,96080,75,Bi-Weekly,T,,,2025-03-05 00:29:16,,customer
+315031,Boulder Creek RV Resort,280 North Boulder Drive,Redding,CA,96003,33,Bi-Weekly,M,,,2025-03-05 00:29:16,,customer
+315175,Fire House Grill,463-760 Main Street,Janesville,CA,96114,09,Weekly,T,,,2025-03-05 00:29:16,,customer
+315176,Integrity Heating & Air,5213 Industrial Way,Anderson,CA,96007,05,Weekly,W,,,2025-03-05 00:29:16,,customer
+315177,Red Bluff Elks Lodge,355 Gilmore Road,Red Bluff,CA,96080,75,Weekly,M,,,2025-03-05 00:29:16,,customer
+315589,Body & Skin Care,3462 Bechelli Lane #B,Redding,CA,96002,12,Weekly,T,,,2025-03-05 00:29:16,,customer
+315612,Vintage Glamour,1166 Hartnell Avenue,Redding,CA,96002,09,Bi-Weekly,W,,,2025-03-05 00:29:16,,customer
+315654,Los Gordos,5200 Churn Creek Road Suite L,Redding,CA,96002,33,Weekly,F,,,2025-03-05 00:29:16,,customer
+315785,Casino Poker Club,1885 Hilltop Drive,Redding,CA,96002,12,Weekly,T,,,2025-03-05 00:29:16,,customer
+315787,Breslin Occupational Therapy,20 Hilltop Drive Unit A,Redding,CA,96003,33,Weekly,M,,,2025-03-05 00:29:16,,customer
+315825,Raliberto's - Weaverville,120 Nugget Lane,Weaverville,CA,96093,09,Weekly,R,,,2025-03-05 00:29:16,,customer
+315916,Cheesecakes Unlimited,1135 Pine Street Suite 113,Redding,CA,96001,12,Weekly,MF,,,2025-03-05 00:29:16,,customer
+315918,PG&E Microsite Sunriver,23400 East Sunriver Drive,Red Bluff,CA,96080,75,Weekly,F,,,2025-03-05 00:29:16,,customer
+316033,White Rock Trucking Inc.,7065 Aviator Lane,Redding,CA,96002,05,Weekly,W,,,2025-03-05 00:29:16,,customer
+316069,Tierra Oaks Golf Club,19700 La Crescenta Drive,Redding,CA,96003,05,Weekly,F,,,2025-03-05 00:29:16,,customer
+316073,Lassen Forest Products,22829 Casale Road,Red Bluff,CA,96080,75,Weekly,M,,,2025-03-05 00:29:16,,customer
+316481,Ben's Truck Repair,2060 Montgomery Road,Red Bluff,CA,96080,75,Weekly,M,,,2025-03-05 00:29:16,,customer
+316484,"Redding Family Medical Group, Inc.",2510 Airpark Drive Suite 201,Redding,CA,96001,11,Weekly,T,,,2025-03-05 00:29:16,,customer
+316737,Huffs @ Bridge Bay,10300 Bridge Bay Road,Redding,CA,96003,33,Weekly,R,,,2025-03-05 00:29:16,,customer
+316738,Renstrom Trucking Inc.,9511 State Highway 99W,Gerber,CA,96035,75,Weekly,M,,,2025-03-05 00:29:16,,customer
+317006,Skin Solutions by Renew,1700 Market Street,Redding,CA,96001,11,Weekly,T,,,2025-03-05 00:29:16,,customer
+317008,Voorwood,2350 Barney Road,Anderson,CA,96007,05,Weekly,W,,,2025-03-05 00:29:16,,customer
+317097,Gateway Unified School District,4411 Mountain Lakes Boulevard,Redding,CA,96003,05,Weekly,R,,,2025-03-05 00:29:16,,customer
+317098,Buckeye School of Arts,3407 Hiatt Drive,Redding,CA,96003,05,Weekly,F,,,2025-03-05 00:29:16,,customer
+317099,Mountain Lakes High School,17752  Shasta Dam Boulevard,Shasta Lake,CA,96019,05,Weekly,R,,,2025-03-05 00:29:16,,customer
+317102,Central Valley High School,4066 La Mesa Avenue,Shasta Lake,CA,96019,05,Weekly,R,,,2025-03-05 00:29:16,,customer
+317103,Shasta Lake Middle School,4620 Vallecito Street,Shasta Lake,CA,96019,05,Weekly,R,,,2025-03-05 00:29:16,,customer
+317104,Grand Oaks Elementary,5309 Grand Avenue,Shasta Lake,CA,96019,05,Weekly,R,,,2025-03-05 00:29:16,,customer
+317105,Grand Oaks Elementary - Cafeteria,5309 Grand Avenue,Shasta Lake,CA,96019,05,Weekly,R,,,2025-03-05 00:29:16,,customer
+317106,Shasta Lake Middle School - Cafeteria,4620 Vallecito Street,Shasta Lake,CA,96019,05,Weekly,R,,,2025-03-05 00:29:16,,customer
+317107,Central Valley High School - Cafeteria,4066 La Mesa Avenue,Shasta Lake,CA,96019,05,Weekly,R,,,2025-03-05 00:29:16,,customer
+317108,Buckeye School of Arts - Cafeteria,3407 Hiatt Drive,Redding,CA,96003,05,Weekly,F,,,2025-03-05 00:29:16,,customer
+317168,Freightliner Northwest,4991 Caterpillar Road,Redding,CA,96003,05,Weekly,R,,,2025-03-05 00:29:16,,customer
+317281,Cedar Tree Restaurant,22020 Palo Way,Palo Cedro,CA,96073,33,Weekly,T,,,2025-03-05 00:29:16,,customer
+317298,Automotive Service Center,2800 West Center Street,Anderson,CA,96007,05,Weekly,W,,,2025-03-05 00:29:16,,customer
+317491,Boba Tea & Coffee - 2,2110 Eureka Way,Redding,CA,96001,33,Weekly,W,,,2025-03-05 00:29:16,,customer
+317516,Rental Guys,4055 Eastside Road,Redding,CA,96001,05,Weekly,M,,,2025-03-05 00:29:16,,customer
+317564,Pizza Factory,536 North Market Street,Redding,CA,96003,05,Weekly,M,,,2025-03-05 00:29:16,,customer
+317649,Clear View Auto Glass,1600 East Cypress Avenue #5,Redding,CA,96002,09,Weekly,W,,,2025-03-05 00:29:16,,customer
+317650,Win River Mini Mart,2415 South Bonnyview Road,Redding,CA,96001,11,Weekly,R,,,2025-03-05 00:29:16,,customer
+317707,Sourdough Bread Company,4641 Churn Creek Road Suite 2,Redding,CA,96002,33,Weekly,F,,,2025-03-05 00:29:16,,customer
+317878,Tune it Up,3025-A Twin View Boulevard,Shasta Lake,CA,96019,05,Bi-Weekly,R,,,2025-03-05 00:29:16,,customer
+317904,T&A Restaurant & Lounge,2101 Main Street,Susanville,CA,96130,09,Weekly,T,,,2025-03-05 00:29:16,,customer
+318143,Courthouse Cafe,2455 Main Street,Susanville,CA,96130,09,Weekly,T,,,2025-03-05 00:29:16,,customer
+318289,Wrenchers,1954 Ferry Street,Anderson,CA,96007,05,Weekly,W,,,2025-03-05 00:29:16,,customer
+318321,SETI Institute,42231 Bidwell Road,Hat Creek,CA,96040,09,Bi-Weekly,T,,,2025-03-05 00:29:16,,customer
+318323,Siskiyou Union High School Culinary,624 Everitt Memorial Highway,Mount Shasta,CA,96067,33,Weekly,R,,,2025-03-05 00:29:16,,customer
+318368,Dan Palmer Trucking,7211 Sands Lane,Anderson,CA,96007,05,Weekly,T,,,2025-03-05 00:29:16,,customer
+318444,Court Street Eats,1718 Placer Street,Redding,CA,96001,12,Bi-Weekly,R,,,2025-03-05 00:29:16,,customer
+318468,The Shack,1325 Eureka Way,Redding,CA,96001,12,Weekly,R,,,2025-03-05 00:29:16,,customer
+318787,Orchard Nutrition,221 Locust Street,Redding,CA,96001,11,Weekly,R,,,2025-03-05 00:29:16,,customer
+318788,Centerville Community Services District,8930 Placer Road,Redding,CA,96001,11,Weekly,W,,,2025-03-05 00:29:16,,customer
+318794,Community Behavioral Health,415 Knollcrest Drive,Redding,CA,96002,09,Weekly,W,,,2025-03-05 00:29:16,,customer
+318811,Churn Creek Wellness & Dental,3110 Churn Creek Road,Redding,CA,96002,33,Weekly,W,,,2025-03-05 00:29:16,,customer
+318905,Thrive Automotive,1630 Shasta Street,Redding,CA,96001,33,Weekly,W,,,2025-03-05 00:29:16,,customer
+319122,The Rusty Nail,900 Dana Drive,Redding,CA,96003,12,Bi-Weekly,W,,,2025-03-05 00:29:16,,customer
+319123,New Clairvaux Tasting Room,1355 Butte Street,Redding,CA,96001,33,Bi-Weekly,W,,,2025-03-05 00:29:16,,customer
+319150,HM Development Group (BD),1320 Yuba Street,Redding,CA,96001,11,Weekly,F,,,2025-03-05 00:29:16,,customer
+319189,Tri Counties Bank,303 Main Street,Weed,CA,96094,33,Bi-Weekly,R,,,2025-03-05 00:29:16,,customer
+319336,Pourboys Tapyard,2040 Waldon Street,Redding,CA,96001,11,Weekly,F,,,2025-03-05 00:29:16,,customer
+319338,Pete's Restaurant & Brewhouse,815 Browning Street,Redding,CA,96003,12,Weekly,W,,,2025-03-05 00:29:16,,customer
+319341,Pro Trans,1113 Center Street,Redding,CA,96001,33,Weekly,W,,,2025-03-05 00:29:16,,customer
+319407,City of Red Bluff  - City Hall,555 Washington Street,Red Bluff,CA,96080,75,Bi-Weekly,T,,,2025-03-05 00:29:16,,customer
+319408,City of Red Bluff - Police,555 Washington Street,Red Bluff,CA,96080,75,Bi-Weekly,T,,,2025-03-05 00:29:16,,customer
+319410,City of Red Bluff - Corp Yard,1055 Kimball Road,Red Bluff,CA,96080,75,Bi-Weekly,W,,,2025-03-05 00:29:16,,customer
+319411,Safari RV,3145 Twin View Boulevard,Shasta Lake,CA,96019,05,Weekly,R,,,2025-03-05 00:29:16,,customer
+319476,Shasta Lake Electric,3570 Iron Court,Shasta Lake,CA,96019,05,Bi-Weekly,R,,,2025-03-05 00:29:16,,customer
+319580,IROC Inc - Shasta Cancer Care Alliance,963 Butte Street,Redding,CA,96001,11,Weekly,R,,,2025-03-05 00:29:16,,customer
+319581,IROC Inc - Shasta Cancer Care Alliance,310 Hartnell Avenue #B,Redding,CA,96002,11,Weekly,M,,,2025-03-05 00:29:16,,customer
+319665,Rocha's Advanced Automotive,20270 Charlanne Drive,Redding,CA,96002,75,Weekly,R,,,2025-03-05 00:29:16,,customer
+319708,Hermanos,2605 South Market Street,Redding,CA,96001,12,Weekly,T,,,2025-03-05 00:29:16,,customer
+319710,Singh Mobile Services,6100 State Highway 273,Anderson,CA,96007,05,Weekly,T,,,2025-03-05 00:29:16,,customer
+319766,S&S Mobile Pressure Washing,8697 Shasta Boulevard,Los Molinos,CA,96055,75,Weekly,W,,,2025-03-05 00:29:16,,customer
+319797,Chic Salon,2948 Churn Creek Road,Redding,CA,96002,33,Weekly,F,,,2025-03-05 00:29:16,,customer
+319868,Bings Steak & Sushi Bar,1600 Main Street,Susanville,CA,96130,09,Weekly,T,,,2025-03-05 00:29:16,,customer
+319999,Taqueria Cotija,238 South Main Street,Red Bluff,CA,96080,75,Weekly,W,,,2025-03-05 00:29:16,,customer
+320040,Weed High School,909 Hillside Drive,Weed,CA,96094,33,Bi-Weekly,R,,,2025-03-05 00:29:16,,customer
+320041,Robin Montgomery - Massage Therapy,3609 Bechelli Ln Unit G,Redding,CA,96002,33,Weekly,F,,,2025-03-05 00:29:16,,customer
+320171,Polished Nail Salon,19450 Live Oak Road,Red Bluff,CA,96080,75,Bi-Weekly,W,,,2025-03-05 00:29:16,,customer
+320172,Body Work Innovations,979 Mission de Oro Drive,Redding,CA,96003,12,Weekly,W,,,2025-03-05 00:29:16,,customer
+320179,Sierra Cascade Office,472-715 Johnson Road,Susanville,CA,96130,09,Weekly,T,,,2025-03-05 00:29:16,,customer
+320180,Sierra Cascade Nursery,472-715 Johnson Road,Susanville,CA,96130,09,Weekly,T,,,2025-03-05 00:29:16,,customer
+320233,Club Tucker,6241 Churn Creek Road,Redding,CA,96002,05,Bi-Weekly,W,,,2025-03-05 00:29:16,,customer
+320234,Mount Shasta High School - Culinary,710 Everitt Memorial Highway,Mount Shasta,CA,96067,33,Weekly,R,,,2025-03-05 00:29:16,,customer
+320398,Capturing the Essence Salt Cave,1506 Market Street,Redding,CA,96001,33,Bi-Weekly,W,,,2025-03-05 00:29:16,,customer
+320399,E's Locker Room,1075 Lakeside Drive,Red Bluff,CA,96080,75,Weekly,M,,,2025-03-05 00:29:16,,customer
+320605,Paratransit Services,701-980 Johnstonville Road,Susanville,CA,96130,09,Weekly,T,,,2025-03-05 00:29:16,,customer
+320632,Redding Adventure Hub,862 North Market Street,Redding,CA,96003,33,Weekly,W,,,2025-03-05 00:29:16,,customer
+320635,SEMSA,1545 Bunyan Road,Susanville,CA,96130,09,Weekly,T,,,2025-03-05 00:29:16,,customer
+320726,Underhood Automotive Inc,1236 Hartnell Avenue,Redding,CA,96002,09,Weekly,W,,,2025-03-05 00:29:16,,customer
+320741,University Market,1292 College View Drive,Redding,CA,96003,12,Weekly,R,,,2025-03-05 00:29:16,,customer
+320742,Peery Chiropractic,3075 Victor Avenue,Redding,CA,96002,09,Bi-Weekly,W,,,2025-03-05 00:29:16,,customer
+320825,Susanville Supermarket - Bakery Dept.,50 Grand Avenue,Susanville,CA,96130,09,Weekly,T,,,2025-03-05 00:29:16,,customer
+320826,Susanville Supermarket - Grocery,50 Grand Avenue,Susanville,CA,96130,09,Weekly,T,,,2025-03-05 00:29:16,,customer
+320827,Susanville Supermarket - Meat Dept.,50 Grand Avenue,Susanville,CA,96130,09,Weekly,T,,,2025-03-05 00:29:16,,customer
+320843,Evergreen Roaster,2124 East Street,Redding,CA,96001,11,Weekly,R,,,2025-03-05 00:29:16,,customer
+320844,Redding Express Stop,1220 Shasta Street,Redding,CA,96001,11,Weekly,W,,,2025-03-05 00:29:16,,customer
+320866,Main Street Deli,20645 Gas Point Road,Cottonwood,CA,96022,75,Weekly,T,,,2025-03-05 00:29:16,,customer
+320902,Cinders and Taste & See,2820 Freeman Street,Anderson,CA,96007,05,Weekly,W,,,2025-03-05 00:29:16,,customer
+320947,San Francisco Deli,2395 Athens Avenue,Redding,CA,96001,11,Weekly,R,,,2025-03-05 00:29:16,,customer
+321012,Mister Peri Peri's Grill,909 Dana Drive,Redding,CA,96003,12,Weekly,W,,,2025-03-05 00:29:16,,customer
+321020,JJ's Cafe,13385 State Highway 89,Old Station,CA,96071,09,Bi-Weekly,T,,,2025-03-05 00:29:16,,customer
+321142,Hill Country Health & Wellness Center,3270 Churn Creek Road,Redding,CA,96002,33,Weekly,W,,,2025-03-05 00:29:16,,customer
+321143,Anthony's Mediterranean Bar & Grill,1701 California Street,Redding,CA,96001,12,Weekly,R,,,2025-03-05 00:29:16,,customer
+321167,Rental Guys,1550 Chestnut Street,Susanville,CA,96130,09,Weekly,T,,,2025-03-05 00:29:16,,customer
+321234,Roxie's Deli & BBQ,7810 State Highway 99E,Los Molinos,CA,96055,75,Weekly,W,,,2025-03-05 00:29:16,,customer
+321235,Wing Stop,1020 East Cypress Avenue Suite A,Redding,CA,96002,12,Weekly,F,,,2025-03-05 00:29:16,,customer
+321459,Poinsett's Machine Shop,2486 Progress Drive #3,Redding,CA,96001,05,Weekly,M,,,2025-03-05 00:29:16,,customer
+321515,Redding Rancheria Center for Advanced Care,3305 Placer Street Suite B,Redding,CA,96001,11,Bi-Weekly,W,,,2025-03-05 00:29:16,,customer
+321728,DH Wound Care - Mercy Medical Center,1950 Rosaline Avenue Suite A,Redding,CA,96001,11,Weekly,MTWRF,,,2025-03-05 00:29:16,,customer
+321836,Miller Collision Center,20303 Charlanne Drive,Redding,CA,96002,75,Weekly,R,,,2025-03-05 00:29:16,,customer
+321845,Kopper Kettle,2535 Main Street,Susanville,CA,96130,09,Weekly,T,,,2025-03-05 00:29:16,,customer
+322069,Bettendorf Trucking,20943 Bettendorf Way,Anderson,CA,96007,05,Weekly,W,,,2025-03-05 00:29:16,,customer
+322116,Susanville Transmission,2117 Main Street,Susanville,CA,96130,09,Weekly,T,,,2025-03-05 00:29:16,,customer
+322191,Smokin Joe's BBQ,8540 Airport Road,Redding,CA,96002,75,Weekly,R,,,2025-03-05 00:29:16,,customer
+322234,MJB Welding Supply,2610 Churn Creek Road,Redding,CA,96002,33,Weekly,M,,,2025-03-05 00:29:16,,customer
+322236,Lori Barclay - Special Events,1600 East Cypress Avenue,Redding,CA,96002,09,Weekly,W,,,2025-03-05 00:29:16,,customer
+322340,California Soccer Park,9800 Old Oregon Trail,Redding,CA,96003,12,Weekly,W,,,2025-03-05 00:29:16,,customer
+322342,Paradiso,1270 Yuba Street,Redding,CA,96001,12,Weekly,R,,,2025-03-05 00:29:16,,customer
+322343,The Spot Barber Lounge,2435 Athens Avenue,Redding,CA,96001,12,Weekly,T,,,2025-03-05 00:29:16,,customer
+322380,Stelters HVAC Service,2335 Larkspur Lane Suite A,Redding,CA,96002,09,Weekly,W,,,2025-03-05 00:29:16,,customer
+322600,Dianne's Pizza & More,19632 Lake California Drive,Cottonwood,CA,96022,75,Weekly,T,,,2025-03-05 00:29:16,,customer
+322720,Chick-fil-A at I-5 & Bonnyview,4086 South Bonnyview Road,Redding,CA,96002,33,Weekly,F,,,2025-03-05 00:29:16,,customer
+322942,Woody's Brewing Company,1257 Oregon Street,Redding,CA,96001,33,Weekly,W,,,2025-03-05 00:29:16,,customer
+323100,Travel Inn,1040 Market Street,Redding,CA,96001,09,Weekly,F,,,2025-03-05 00:29:16,,customer
+323101,Stardust Motel,1200 Pine Street,Redding,CA,96001,09,Weekly,F,,,2025-03-05 00:29:16,,customer
+323103,New Life Discovery Project,1205 Placer Street,Redding,CA,96001,09,Weekly,F,,,2025-03-05 00:29:16,,customer
+323104,Shasta Lodge,1245 Pine Street,Redding,CA,96001,09,Weekly,F,,,2025-03-05 00:29:16,,customer
+323105,Lassen College - Maintenance Shop,478-200 CA-139,Susanville,CA,96130,09,Weekly,T,,,2025-03-05 00:29:16,,customer
+323106,Lassen College Food Service,478-200 CA-139,Susanville,CA,96130,09,Weekly,T,,,2025-03-05 00:29:16,,customer
+323107,Lassen College - Automotive,478-200 CA -139,Susanville,CA,96130,09,Weekly,T,,,2025-03-05 00:29:16,,customer
+323109,Lassen College - Custodial,478-200 CA - 139,Susanville,CA,96130,09,Weekly,T,,,2025-03-05 00:29:16,,customer
+323303,Side Iron BBQ,724 Main Street,Susanville,CA,96130,09,Weekly,T,,,2025-03-05 00:29:16,,customer
+323309,Jersey Mike's Subs,4861 Bechelli Lane,Redding,CA,96002,12,Weekly,T,,,2025-03-05 00:29:16,,customer
+323310,Jersey Mike's Subs DS,4861 Bechelli Lane,Redding,CA,96002,12,Weekly,T,,,2025-03-05 00:29:16,,customer
+323371,Thrive Automotive,2693 Churn Creek Road,Redding,CA,96002,33,Weekly,W,,,2025-03-05 00:29:16,,customer
+323470,DH Lassen Medical Clinic - Cottonwood,20833 Long Branch Drive,Cottonwood,CA,96022,75,Weekly,T,,,2025-03-05 00:29:16,,customer
+323471,DH Lassen Medical Clinic - Red Bluff,2450 Sister Mary Columba Drive,Red Bluff,CA,96080,75,Weekly,M,,,2025-03-05 00:29:16,,customer
+323543,Prestige Urgent Care,1230 East Street Suite A,Redding,CA,96001,11,Weekly,W,,,2025-03-05 00:29:16,,customer
