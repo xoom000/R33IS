@@ -1,5 +1,7 @@
 # Environment variables
 .env
+.env.*
+!.env.example
 
 # Node dependencies
 node_modules/
@@ -9,6 +11,10 @@ node_modules/
 *.db-journal
 *.sqlite
 *.sqlite3
+*.csv
+database/*.csv
+database/*.db
+database/migration/*.db
 
 # Logs
 logs/

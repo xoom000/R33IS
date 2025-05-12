@@ -2,14 +2,23 @@
 
 A comprehensive backend for the Route 33 Intelligence System - a smart, self-learning assistant that helps manage and optimize routes more efficiently by combining journaling, automation, predictive logic, and data analysis.
 
+## ⚠️ SECURITY NOTICE
+
+This repository contains **NO SENSITIVE DATA**. All customer data, transactions, and other confidential information have been removed from the repository. 
+
+For development purposes:
+- Sample data must be generated separately
+- Database files should never be committed to this repository
+- Environment variables should be kept in `.env` files (not committed)
+
 ## Repository Structure
 
 ```
 /
 ├── api/                  # Express API code
 ├── cli/                  # Note + journal CLI tools
-├── database/             # SQLite files and migrations
-├── migrations/           # Final schema files + README
+├── database/             # SQLite schema (NO DATA)
+├── migrations/           # Schema migration files
 ├── docs/                 # API documentation and manifest
 ├── .env.example          # Template for API environment variables
 ├── README.md             # This file
@@ -85,46 +94,6 @@ See the complete API documentation in `/docs/api-docs.md`.
 - `GET /api/journal/search`: Search journal entries with various filters
 - `POST /api/journal`: Create a new journal entry
 
-## CLI Tool
-
-A command-line interface for interacting with the notes system:
-
-```bash
-# Install CLI dependencies
-cd cli
-npm install
-
-# Make executable
-chmod +x note-cli.js
-
-# Run in interactive mode
-./note-cli.js
-
-# View today's notes
-./note-cli.js today
-
-# View notes for a specific customer
-./note-cli.js customer 12345
-
-# Search notes with filters
-./note-cli.js search
-
-# Create a new note
-./note-cli.js create
-
-# Mark a note as completed
-./note-cli.js complete 42
-
-# Mark a note as read
-./note-cli.js read 42
-
-# Export today's notes to JSON
-./note-cli.js export json
-
-# Export today's notes to TXT
-./note-cli.js export txt
-```
-
 ## Setup Instructions
 
 1. Copy `.env.example` to `.env` and configure your environment:
@@ -151,32 +120,6 @@ chmod +x note-cli.js
    ```bash
    npm run dev
    ```
-
-## Using the CLI Tool
-
-```bash
-# Run the CLI tool
-npm run cli
-```
-
-## Offline Sync Support
-
-The API is designed to support offline usage through the `sync_status` table, which tracks the sync state of notes, journal entries, and other data.
-
-## Authentication & Security
-
-The system uses JWT (JSON Web Token) for authentication with role-based access control:
-
-- `Customer`: Access to own data only
-- `Driver`: Access to customers on their route
-- `Admin`: Access to most resources
-- `SuperAdmin`: Access to all resources, including deletion operations
-
-## Development
-
-Further details about the API structure and implementation can be found in the `/docs` directory.
-
-For more information about development workflows, see the API documentation at `/docs/api-docs.md`.
 
 ## License
 

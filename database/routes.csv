@@ -1,9 +1,0 @@
-RouteNumber,RouteInt,DriverName,PlantNumber,ServiceDay
-01,1,Driver for Route 01,,Monday
-03,3,Driver for Route 03,,Monday
-05,5,Anthony Hendry,,Tuesday
-09,9,Driver for Route 09,,Friday
-11,11,Driver for Route 11,,Tuesday
-12,12,Driver for Route 12,,Monday
-33,33,Driver for Route 33,,Monday
-75,75,Driver for Route 75,,Friday
