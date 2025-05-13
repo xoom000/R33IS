@@ -3,13 +3,15 @@ const express = require('express');
 const router = express.Router();
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
+const tokenService = require('../services/tokenService');
+const { rules, validate, sanitize, security } = require('../utils/validation');
 
 /**
  * @route   POST /api/auth/register
  * @desc    Register a new user with username/password/customer number
  * @access  Public
  */
-router.post('/register', async (req, res) => {
+router.post('/register', rules.auth.register, validate, async (req, res) => {
   const { username, password, customer_number } = req.body;
 
   // Validate input
@@ -131,11 +133,55 @@ router.post('/register', async (req, res) => {
 });
 
 /**
+ * Helper function to set authentication cookies
+ */
+const setAuthCookies = (res, token, refreshToken) => {
+  // Set the access token in a cookie
+  res.cookie('accessToken', token, {
+    httpOnly: true,
+    secure: process.env.NODE_ENV === 'production',
+    sameSite: 'lax',  // Helps with CSRF
+    maxAge: 1 * 60 * 60 * 1000, // 1 hour
+    path: '/' // Cookie is valid for all paths
+  });
+
+  // Set the refresh token in a cookie (if provided)
+  if (refreshToken) {
+    res.cookie('refreshToken', refreshToken, {
+      httpOnly: true,
+      secure: process.env.NODE_ENV === 'production',
+      sameSite: 'lax',
+      maxAge: 7 * 24 * 60 * 60 * 1000, // 7 days
+      path: '/api/auth/refresh' // Only sent to refresh endpoint
+    });
+  }
+};
+
+/**
+ * Helper function to clear authentication cookies
+ */
+const clearAuthCookies = (res) => {
+  res.clearCookie('accessToken', {
+    path: '/',
+    httpOnly: true,
+    secure: process.env.NODE_ENV === 'production',
+    sameSite: 'lax'
+  });
+  
+  res.clearCookie('refreshToken', {
+    path: '/api/auth/refresh',
+    httpOnly: true,
+    secure: process.env.NODE_ENV === 'production',
+    sameSite: 'lax'
+  });
+};
+
+/**
  * @route   POST /api/auth/login
  * @desc    Authenticate user & get token (Username-based)
  * @access  Public
  */
-router.post('/login', async (req, res) => {
+router.post('/login', rules.auth.login, validate, async (req, res) => {
   // Accept either username/password or customerNumber/password
   const { username, customerNumber, password } = req.body;
 
@@ -249,15 +295,19 @@ router.post('/login', async (req, res) => {
       username: user.username
     };
 
-    // Sign JWT token
-    const token = jwt.sign(payload, process.env.JWT_SECRET || 'yoursecretkey', {
-      expiresIn: '1d',
-    });
+    // Generate access token - short lived (1 hour)
+    const token = tokenService.generateAccessToken(payload);
+    
+    // Create refresh token and store in database
+    const refreshToken = await tokenService.createRefreshToken(req.app.locals.db, user.CustomerNumber);
+
+    // Set httpOnly cookies
+    setAuthCookies(res, token, refreshToken);
 
     // Return success response
     res.json({
       success: true,
-      token: token,
+      // No longer send token in response body - it's in the httpOnly cookie
       user: {
         id: user.CustomerNumber,
         customerNumber: user.CustomerNumber,
@@ -282,16 +332,15 @@ router.post('/login', async (req, res) => {
  */
 router.get('/me', (req, res) => {
   try {
-    const authHeader = req.headers.authorization;
-
-    if (!authHeader || !authHeader.startsWith('Bearer ')) {
+    // Get token from cookie instead of Authorization header
+    const token = req.cookies.accessToken;
+    
+    if (!token) {
       return res.status(401).json({
         error: 'Authentication required',
         message: 'Please log in to access this resource.',
       });
     }
-
-    const token = authHeader.split(' ')[1];
 
     // Verify token
     const decoded = jwt.verify(token, process.env.JWT_SECRET || 'yoursecretkey');
@@ -370,14 +419,171 @@ router.get('/me', (req, res) => {
 });
 
 /**
+ * @route   POST /api/auth/refresh
+ * @desc    Refresh access token using refresh token
+ * @access  Public (but requires refresh token cookie)
+ */
+router.post('/refresh', async (req, res) => {
+  // Get refresh token from cookie
+  const refreshToken = req.cookies.refreshToken;
+  
+  if (!refreshToken) {
+    return res.status(401).json({
+      error: 'No refresh token',
+      message: 'Refresh token is missing'
+    });
+  }
+  
+  try {
+    // Get user ID from the expired access token (if present)
+    let userId = null;
+    const accessToken = req.cookies.accessToken;
+    
+    if (accessToken) {
+      try {
+        // We just need the ID, so using decode instead of verify is OK here
+        const decoded = jwt.decode(accessToken);
+        if (decoded && decoded.id) {
+          userId = decoded.id;
+        }
+      } catch (e) {
+        // Ignore token decode errors
+      }
+    }
+    
+    if (!userId) {
+      return res.status(401).json({
+        error: 'Cannot identify user',
+        message: 'Both access and refresh tokens are required for token refresh'
+      });
+    }
+    
+    const db = req.app.locals.db;
+    
+    // Rotate the refresh token - this validates the old token, revokes it, and creates a new one
+    const newRefreshToken = await tokenService.rotateRefreshToken(db, refreshToken, userId);
+    
+    // Get user details to create a new access token
+    const getUserDetails = () => {
+      return new Promise((resolve, reject) => {
+        db.get(
+          `SELECT u.user_id, u.username, u.customer_number as CustomerNumber, 
+                u.role, c.AccountName 
+           FROM users u 
+           JOIN customers c ON u.customer_number = c.CustomerNumber 
+           WHERE u.customer_number = ?`,
+          [userId],
+          (err, user) => {
+            if (err) reject(err);
+            else if (user) {
+              resolve(user);
+            } else {
+              // Fallback to customers table for legacy users
+              db.get(
+                'SELECT CustomerNumber, AccountName, role FROM customers WHERE CustomerNumber = ?',
+                [userId],
+                (err, customer) => {
+                  if (err) reject(err);
+                  else resolve(customer);
+                }
+              );
+            }
+          }
+        );
+      });
+    };
+
+    const user = await getUserDetails();
+    
+    if (!user) {
+      return res.status(404).json({
+        error: 'User not found',
+        message: 'The user associated with this token no longer exists.'
+      });
+    }
+
+    // Normalize role case to match expected route authorization
+    const normalizedRole = user.role
+      ? user.role.toLowerCase() === 'superadmin'
+        ? 'SuperAdmin'
+        : user.role.toLowerCase() === 'driver'
+        ? 'Driver'
+        : user.role.toLowerCase() === 'admin'
+        ? 'Admin'
+        : 'Customer'
+      : 'Customer';
+
+    // Create new payload for access token
+    const payload = {
+      id: user.CustomerNumber,
+      name: user.AccountName,
+      role: normalizedRole,
+      customerNumber: user.CustomerNumber,
+      username: user.username
+    };
+
+    // Create new access token
+    const newAccessToken = tokenService.generateAccessToken(payload);
+
+    // Set the new tokens in cookies
+    setAuthCookies(res, newAccessToken, newRefreshToken);
+
+    // Return success with user info
+    res.json({
+      success: true,
+      user: {
+        id: user.CustomerNumber,
+        customerNumber: user.CustomerNumber,
+        name: user.AccountName,
+        role: normalizedRole,
+        username: user.username
+      }
+    });
+  } catch (err) {
+    console.error('Token refresh error:', err);
+    
+    // Clear auth cookies on error
+    clearAuthCookies(res);
+    
+    return res.status(401).json({
+      error: 'Invalid refresh token',
+      message: 'Your session has expired. Please log in again.'
+    });
+  }
+});
+
+/**
  * @route   POST /api/auth/logout
- * @desc    Logout (invalidate token on client side)
+ * @desc    Logout by clearing authentication cookies and revoking refresh tokens
  * @access  Public
  */
-router.post('/logout', (req, res) => {
-  // JWT is stateless, so we just tell the client it was successful
-  // The client is responsible for removing the token
-  res.json({ success: true, message: 'Logged out successfully' });
+router.post('/logout', async (req, res) => {
+  try {
+    // Get user ID from the access token if present
+    const accessToken = req.cookies.accessToken;
+    if (accessToken) {
+      try {
+        const decoded = jwt.decode(accessToken);
+        if (decoded && decoded.id) {
+          // Revoke all refresh tokens for this user
+          await tokenService.revokeAllUserTokens(req.app.locals.db, decoded.id);
+        }
+      } catch (e) {
+        // Ignore token decode errors
+        console.error('Error decoding token during logout:', e);
+      }
+    }
+    
+    // Clear the auth cookies
+    clearAuthCookies(res);
+    
+    res.json({ success: true, message: 'Logged out successfully' });
+  } catch (error) {
+    console.error('Error during logout:', error);
+    // Still clear cookies even if revoking tokens failed
+    clearAuthCookies(res);
+    res.json({ success: true, message: 'Logged out successfully' });
+  }
 });
 
 module.exports = router;

@@ -10,6 +10,7 @@ const {
   searchNotes
 } = require('../controllers/notesController');
 const { authenticate, authorize } = require('../middleware/authMiddleware');
+const { rules, validate } = require('../utils/validation');
 
 /**
  * @route   GET /api/notes/today
@@ -23,7 +24,7 @@ router.get('/today', authenticate, getTodayNotes);
  * @desc    Get all notes for a specific customer
  * @access  Private (Driver, SuperAdmin)
  */
-router.get('/customer/:customerId', authenticate, getCustomerNotes);
+router.get('/customer/:customerId', authenticate, rules.notes.getByCustomer, validate, getCustomerNotes);
 
 /**
  * @route   GET /api/notes/search
@@ -37,14 +38,14 @@ router.get('/search', authenticate, searchNotes);
  * @desc    Create a new note
  * @access  Private (Driver, SuperAdmin)
  */
-router.post('/', authenticate, createNote);
+router.post('/', authenticate, rules.notes.create, validate, createNote);
 
 /**
  * @route   PUT /api/notes/:noteId
  * @desc    Update a note
  * @access  Private (Driver, SuperAdmin)
  */
-router.put('/:noteId', authenticate, updateNote);
+router.put('/:noteId', authenticate, rules.notes.update, validate, updateNote);
 
 /**
  * @route   DELETE /api/notes/:noteId

@@ -66,3 +66,5 @@ out/
 temp/
 tmp/
 .tmp/
+
+**/.claude/settings.local.json

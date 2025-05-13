@@ -2,6 +2,7 @@
 const express = require('express');
 const router = express.Router();
 const { authenticate, authorize } = require('../middleware/authMiddleware');
+const { rules, validate, sanitize, security } = require('../utils/validation');
 
 /**
  * @route   GET /api/customers
@@ -113,7 +114,7 @@ router.get('/', (req, res) => {
  * @desc    Get single customer by ID
  * @access  Private (Driver, SuperAdmin)
  */
-router.get('/:id', (req, res) => {
+router.get('/:id', rules.customer.getOne, validate, (req, res) => {
   try {
     const db = req.app.locals.db;
     const customerId = req.params.id;
@@ -170,7 +171,14 @@ router.get('/:id', (req, res) => {
  * @desc    Create a new customer
  * @access  Private (Driver, SuperAdmin)
  */
-router.post('/', (req, res) => {
+router.post('/', rules.customer.create, validate, (req, res) => {
+  // Sanitize the input data
+  req.body = sanitize.object(req.body);
+  
+  // Additional security check
+  if (!security.checkObject(req.body, res)) {
+    return; // Response is sent by the security check
+  }
   try {
     const {
       AccountName,
@@ -277,7 +285,14 @@ router.post('/', (req, res) => {
  * @desc    Update a customer
  * @access  Private (Driver, SuperAdmin)
  */
-router.put('/:id', (req, res) => {
+router.put('/:id', rules.customer.update, validate, (req, res) => {
+  // Sanitize the input data
+  req.body = sanitize.object(req.body);
+  
+  // Additional security check
+  if (!security.checkObject(req.body, res)) {
+    return; // Response is sent by the security check
+  }
   try {
     const customerId = req.params.id;
     const {

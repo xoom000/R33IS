@@ -16,33 +16,36 @@ function normalizeRole(role) {
 }
 
 /**
- * Middleware to authenticate users via JWT
+ * Middleware to authenticate users via JWT from cookies
+ * but also supports traditional Authorization header as fallback
  */
 const authenticate = (req, res, next) => {
-  console.log("🔍 Incoming Auth Header:", req.headers.authorization);
-
-  const authHeader = req.headers.authorization;
-  if (!authHeader) {
-    console.log("❌ No auth header received");
-    return res.status(401).json({ message: "No token, authorization denied" });
+  // First try to get token from cookies (new method)
+  let token = req.cookies.accessToken;
+  let source = 'cookie';
+  
+  // If no cookie, fall back to Authorization header (legacy support)
+  if (!token && req.headers.authorization) {
+    console.log("🔍 Incoming Auth Header:", req.headers.authorization);
+    const authHeader = req.headers.authorization;
+    
+    // Properly extract token, handling multiple "Bearer" prefixes
+    if (authHeader.startsWith("Bearer ")) {
+      // Remove all instances of "Bearer " (with a space)
+      token = authHeader.replace(/Bearer\s+/gi, "").trim();
+    } else {
+      token = authHeader.trim();
+    }
+    source = 'header';
   }
-
-  // Properly extract token, handling multiple "Bearer" prefixes
-  // This provides better protection against the "Bearer Bearer token" issue
-  let token;
-  if (authHeader.startsWith("Bearer ")) {
-    // Remove all instances of "Bearer " (with a space)
-    token = authHeader.replace(/Bearer\s+/gi, "").trim();
-  } else {
-    token = authHeader.trim();
-  }
-
+  
+  // Check if we have a token from either source
   if (!token) {
-    console.log("❌ Empty token after cleanup");
+    console.log("❌ No authentication token found (neither cookie nor header)");
     return res.status(401).json({ message: "No token, authorization denied" });
   }
-
-  console.log("✅ Extracted Token:", token);
+  
+  console.log(`✅ Extracted Token from ${source}:`, token.substring(0, 10) + '...');
 
   try {
     const decoded = jwt.verify(token, process.env.JWT_SECRET || "yoursecretkey");
